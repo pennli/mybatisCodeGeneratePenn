@@ -10,7 +10,7 @@ public interface ZbTdyuanUserDebtMapper {
 
     int deleteByExample(ZbTdyuanUserDebtExample example);
 
-    int deleteByPrimaryKey(Integer dbtId);
+    int deleteByPrimaryKey(Integer id);
 
     int insert(ZbTdyuanUserDebt record);
 
@@ -18,7 +18,7 @@ public interface ZbTdyuanUserDebtMapper {
 
     List<ZbTdyuanUserDebt> selectByExample(ZbTdyuanUserDebtExample example);
 
-    ZbTdyuanUserDebt selectByPrimaryKey(Integer dbtId);
+    ZbTdyuanUserDebt selectByPrimaryKey(Integer id);
 
     int updateByExampleSelective(@Param("record") ZbTdyuanUserDebt record, @Param("example") ZbTdyuanUserDebtExample example);
 

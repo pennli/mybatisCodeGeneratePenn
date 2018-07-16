@@ -2,30 +2,30 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.ZbTdyuanUserDebtMapper">
   <resultMap id="BaseResultMap" type="po.ZbTdyuanUserDebt">
-    <id column="dbt_id" jdbcType="INTEGER" property="dbtId" />
-    <result column="hasCreditLoan" jdbcType="BIT" property="hascreditloan" />
-    <result column="creditLoanAmount" jdbcType="VARCHAR" property="creditloanamount" />
-    <result column="creditLoanBalance" jdbcType="VARCHAR" property="creditloanbalance" />
-    <result column="creditLoanCnt" jdbcType="INTEGER" property="creditloancnt" />
-    <result column="creditLoanOrg" jdbcType="VARCHAR" property="creditloanorg" />
-    <result column="hasSmallMortgageLoan" jdbcType="BIT" property="hassmallmortgageloan" />
-    <result column="smallMortgageAmount" jdbcType="VARCHAR" property="smallmortgageamount" />
-    <result column="smallMortgageBalance" jdbcType="VARCHAR" property="smallmortgagebalance" />
-    <result column="smallMortgageCnt" jdbcType="INTEGER" property="smallmortgagecnt" />
-    <result column="smallMortgageOrg" jdbcType="VARCHAR" property="smallmortgageorg" />
-    <result column="hasSmallLoan" jdbcType="BIT" property="hassmallloan" />
-    <result column="smallLoanAmount" jdbcType="VARCHAR" property="smallloanamount" />
-    <result column="smallLoanBalance" jdbcType="VARCHAR" property="smallloanbalance" />
-    <result column="smallLoanCnt" jdbcType="INTEGER" property="smallloancnt" />
-    <result column="smallLoanOrg" jdbcType="VARCHAR" property="smallloanorg" />
-    <result column="hasCreditCard" jdbcType="BIT" property="hascreditcard" />
-    <result column="creditCardCnt" jdbcType="INTEGER" property="creditcardcnt" />
-    <result column="creditCardQuota" jdbcType="VARCHAR" property="creditcardquota" />
-    <result column="creditCardDebt" jdbcType="VARCHAR" property="creditcarddebt" />
-    <result column="hasOtherNotCreditLoan" jdbcType="BIT" property="hasothernotcreditloan" />
-    <result column="otherNotCreditLoanCnt" jdbcType="VARCHAR" property="othernotcreditloancnt" />
-    <result column="otherNotCreditLoanAmount" jdbcType="VARCHAR" property="othernotcreditloanamount" />
-    <result column="otherNotCreditLoanOrg" jdbcType="VARCHAR" property="othernotcreditloanorg" />
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="hasCreditLoan" jdbcType="BIT" property="hasCreditLoan" />
+    <result column="creditLoanAmount" jdbcType="VARCHAR" property="creditLoanAmount" />
+    <result column="creditLoanBalance" jdbcType="VARCHAR" property="creditLoanBalance" />
+    <result column="creditLoanCnt" jdbcType="INTEGER" property="creditLoanCnt" />
+    <result column="creditLoanOrg" jdbcType="VARCHAR" property="creditLoanOrg" />
+    <result column="hasSmallMortgageLoan" jdbcType="BIT" property="hasSmallMortgageLoan" />
+    <result column="smallMortgageAmount" jdbcType="VARCHAR" property="smallMortgageAmount" />
+    <result column="smallMortgageBalance" jdbcType="VARCHAR" property="smallMortgageBalance" />
+    <result column="smallMortgageCnt" jdbcType="INTEGER" property="smallMortgageCnt" />
+    <result column="smallMortgageOrg" jdbcType="VARCHAR" property="smallMortgageOrg" />
+    <result column="hasSmallLoan" jdbcType="BIT" property="hasSmallLoan" />
+    <result column="smallLoanAmount" jdbcType="VARCHAR" property="smallLoanAmount" />
+    <result column="smallLoanBalance" jdbcType="VARCHAR" property="smallLoanBalance" />
+    <result column="smallLoanCnt" jdbcType="INTEGER" property="smallLoanCnt" />
+    <result column="smallLoanOrg" jdbcType="VARCHAR" property="smallLoanOrg" />
+    <result column="hasCreditCard" jdbcType="BIT" property="hasCreditCard" />
+    <result column="creditCardCnt" jdbcType="INTEGER" property="creditCardCnt" />
+    <result column="creditCardQuota" jdbcType="VARCHAR" property="creditCardQuota" />
+    <result column="creditCardDebt" jdbcType="VARCHAR" property="creditCardDebt" />
+    <result column="hasOtherNotCreditLoan" jdbcType="BIT" property="hasOtherNotCreditLoan" />
+    <result column="otherNotCreditLoanCnt" jdbcType="VARCHAR" property="otherNotCreditLoanCnt" />
+    <result column="otherNotCreditLoanAmount" jdbcType="VARCHAR" property="otherNotCreditLoanAmount" />
+    <result column="otherNotCreditLoanOrg" jdbcType="VARCHAR" property="otherNotCreditLoanOrg" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -86,7 +86,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    dbt_id, hasCreditLoan, creditLoanAmount, creditLoanBalance, creditLoanCnt, creditLoanOrg, 
+    id, hasCreditLoan, creditLoanAmount, creditLoanBalance, creditLoanCnt, creditLoanOrg, 
     hasSmallMortgageLoan, smallMortgageAmount, smallMortgageBalance, smallMortgageCnt, 
     smallMortgageOrg, hasSmallLoan, smallLoanAmount, smallLoanBalance, smallLoanCnt, 
     smallLoanOrg, hasCreditCard, creditCardCnt, creditCardQuota, creditCardDebt, hasOtherNotCreditLoan, 
@@ -110,11 +110,11 @@
     select 
     <include refid="Base_Column_List" />
     from zb_tdyuan_user_debt
-    where dbt_id = #{dbtId,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from zb_tdyuan_user_debt
-    where dbt_id = #{dbtId,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
   </delete>
   <delete id="deleteByExample" parameterType="po.ZbTdyuanUserDebtExample">
     delete from zb_tdyuan_user_debt
@@ -123,7 +123,7 @@
     </if>
   </delete>
   <insert id="insert" parameterType="po.ZbTdyuanUserDebt">
-    insert into zb_tdyuan_user_debt (dbt_id, hasCreditLoan, creditLoanAmount, 
+    insert into zb_tdyuan_user_debt (id, hasCreditLoan, creditLoanAmount, 
       creditLoanBalance, creditLoanCnt, creditLoanOrg, 
       hasSmallMortgageLoan, smallMortgageAmount, 
       smallMortgageBalance, smallMortgageCnt, 
@@ -133,165 +133,165 @@
       creditCardDebt, hasOtherNotCreditLoan, otherNotCreditLoanCnt, 
       otherNotCreditLoanAmount, otherNotCreditLoanOrg
       )
-    values (#{dbtId,jdbcType=INTEGER}, #{hascreditloan,jdbcType=BIT}, #{creditloanamount,jdbcType=VARCHAR}, 
-      #{creditloanbalance,jdbcType=VARCHAR}, #{creditloancnt,jdbcType=INTEGER}, #{creditloanorg,jdbcType=VARCHAR}, 
-      #{hassmallmortgageloan,jdbcType=BIT}, #{smallmortgageamount,jdbcType=VARCHAR}, 
-      #{smallmortgagebalance,jdbcType=VARCHAR}, #{smallmortgagecnt,jdbcType=INTEGER}, 
-      #{smallmortgageorg,jdbcType=VARCHAR}, #{hassmallloan,jdbcType=BIT}, #{smallloanamount,jdbcType=VARCHAR}, 
-      #{smallloanbalance,jdbcType=VARCHAR}, #{smallloancnt,jdbcType=INTEGER}, #{smallloanorg,jdbcType=VARCHAR}, 
-      #{hascreditcard,jdbcType=BIT}, #{creditcardcnt,jdbcType=INTEGER}, #{creditcardquota,jdbcType=VARCHAR}, 
-      #{creditcarddebt,jdbcType=VARCHAR}, #{hasothernotcreditloan,jdbcType=BIT}, #{othernotcreditloancnt,jdbcType=VARCHAR}, 
-      #{othernotcreditloanamount,jdbcType=VARCHAR}, #{othernotcreditloanorg,jdbcType=VARCHAR}
+    values (#{id,jdbcType=INTEGER}, #{hasCreditLoan,jdbcType=BIT}, #{creditLoanAmount,jdbcType=VARCHAR}, 
+      #{creditLoanBalance,jdbcType=VARCHAR}, #{creditLoanCnt,jdbcType=INTEGER}, #{creditLoanOrg,jdbcType=VARCHAR}, 
+      #{hasSmallMortgageLoan,jdbcType=BIT}, #{smallMortgageAmount,jdbcType=VARCHAR}, 
+      #{smallMortgageBalance,jdbcType=VARCHAR}, #{smallMortgageCnt,jdbcType=INTEGER}, 
+      #{smallMortgageOrg,jdbcType=VARCHAR}, #{hasSmallLoan,jdbcType=BIT}, #{smallLoanAmount,jdbcType=VARCHAR}, 
+      #{smallLoanBalance,jdbcType=VARCHAR}, #{smallLoanCnt,jdbcType=INTEGER}, #{smallLoanOrg,jdbcType=VARCHAR}, 
+      #{hasCreditCard,jdbcType=BIT}, #{creditCardCnt,jdbcType=INTEGER}, #{creditCardQuota,jdbcType=VARCHAR}, 
+      #{creditCardDebt,jdbcType=VARCHAR}, #{hasOtherNotCreditLoan,jdbcType=BIT}, #{otherNotCreditLoanCnt,jdbcType=VARCHAR}, 
+      #{otherNotCreditLoanAmount,jdbcType=VARCHAR}, #{otherNotCreditLoanOrg,jdbcType=VARCHAR}
       )
   </insert>
   <insert id="insertSelective" parameterType="po.ZbTdyuanUserDebt">
     insert into zb_tdyuan_user_debt
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="dbtId != null">
-        dbt_id,
+      <if test="id != null">
+        id,
       </if>
-      <if test="hascreditloan != null">
+      <if test="hasCreditLoan != null">
         hasCreditLoan,
       </if>
-      <if test="creditloanamount != null">
+      <if test="creditLoanAmount != null">
         creditLoanAmount,
       </if>
-      <if test="creditloanbalance != null">
+      <if test="creditLoanBalance != null">
         creditLoanBalance,
       </if>
-      <if test="creditloancnt != null">
+      <if test="creditLoanCnt != null">
         creditLoanCnt,
       </if>
-      <if test="creditloanorg != null">
+      <if test="creditLoanOrg != null">
         creditLoanOrg,
       </if>
-      <if test="hassmallmortgageloan != null">
+      <if test="hasSmallMortgageLoan != null">
         hasSmallMortgageLoan,
       </if>
-      <if test="smallmortgageamount != null">
+      <if test="smallMortgageAmount != null">
         smallMortgageAmount,
       </if>
-      <if test="smallmortgagebalance != null">
+      <if test="smallMortgageBalance != null">
         smallMortgageBalance,
       </if>
-      <if test="smallmortgagecnt != null">
+      <if test="smallMortgageCnt != null">
         smallMortgageCnt,
       </if>
-      <if test="smallmortgageorg != null">
+      <if test="smallMortgageOrg != null">
         smallMortgageOrg,
       </if>
-      <if test="hassmallloan != null">
+      <if test="hasSmallLoan != null">
         hasSmallLoan,
       </if>
-      <if test="smallloanamount != null">
+      <if test="smallLoanAmount != null">
         smallLoanAmount,
       </if>
-      <if test="smallloanbalance != null">
+      <if test="smallLoanBalance != null">
         smallLoanBalance,
       </if>
-      <if test="smallloancnt != null">
+      <if test="smallLoanCnt != null">
         smallLoanCnt,
       </if>
-      <if test="smallloanorg != null">
+      <if test="smallLoanOrg != null">
         smallLoanOrg,
       </if>
-      <if test="hascreditcard != null">
+      <if test="hasCreditCard != null">
         hasCreditCard,
       </if>
-      <if test="creditcardcnt != null">
+      <if test="creditCardCnt != null">
         creditCardCnt,
       </if>
-      <if test="creditcardquota != null">
+      <if test="creditCardQuota != null">
         creditCardQuota,
       </if>
-      <if test="creditcarddebt != null">
+      <if test="creditCardDebt != null">
         creditCardDebt,
       </if>
-      <if test="hasothernotcreditloan != null">
+      <if test="hasOtherNotCreditLoan != null">
         hasOtherNotCreditLoan,
       </if>
-      <if test="othernotcreditloancnt != null">
+      <if test="otherNotCreditLoanCnt != null">
         otherNotCreditLoanCnt,
       </if>
-      <if test="othernotcreditloanamount != null">
+      <if test="otherNotCreditLoanAmount != null">
         otherNotCreditLoanAmount,
       </if>
-      <if test="othernotcreditloanorg != null">
+      <if test="otherNotCreditLoanOrg != null">
         otherNotCreditLoanOrg,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="dbtId != null">
-        #{dbtId,jdbcType=INTEGER},
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
       </if>
-      <if test="hascreditloan != null">
-        #{hascreditloan,jdbcType=BIT},
+      <if test="hasCreditLoan != null">
+        #{hasCreditLoan,jdbcType=BIT},
       </if>
-      <if test="creditloanamount != null">
-        #{creditloanamount,jdbcType=VARCHAR},
+      <if test="creditLoanAmount != null">
+        #{creditLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="creditloanbalance != null">
-        #{creditloanbalance,jdbcType=VARCHAR},
+      <if test="creditLoanBalance != null">
+        #{creditLoanBalance,jdbcType=VARCHAR},
       </if>
-      <if test="creditloancnt != null">
-        #{creditloancnt,jdbcType=INTEGER},
+      <if test="creditLoanCnt != null">
+        #{creditLoanCnt,jdbcType=INTEGER},
       </if>
-      <if test="creditloanorg != null">
-        #{creditloanorg,jdbcType=VARCHAR},
+      <if test="creditLoanOrg != null">
+        #{creditLoanOrg,jdbcType=VARCHAR},
       </if>
-      <if test="hassmallmortgageloan != null">
-        #{hassmallmortgageloan,jdbcType=BIT},
+      <if test="hasSmallMortgageLoan != null">
+        #{hasSmallMortgageLoan,jdbcType=BIT},
       </if>
-      <if test="smallmortgageamount != null">
-        #{smallmortgageamount,jdbcType=VARCHAR},
+      <if test="smallMortgageAmount != null">
+        #{smallMortgageAmount,jdbcType=VARCHAR},
       </if>
-      <if test="smallmortgagebalance != null">
-        #{smallmortgagebalance,jdbcType=VARCHAR},
+      <if test="smallMortgageBalance != null">
+        #{smallMortgageBalance,jdbcType=VARCHAR},
       </if>
-      <if test="smallmortgagecnt != null">
-        #{smallmortgagecnt,jdbcType=INTEGER},
+      <if test="smallMortgageCnt != null">
+        #{smallMortgageCnt,jdbcType=INTEGER},
       </if>
-      <if test="smallmortgageorg != null">
-        #{smallmortgageorg,jdbcType=VARCHAR},
+      <if test="smallMortgageOrg != null">
+        #{smallMortgageOrg,jdbcType=VARCHAR},
       </if>
-      <if test="hassmallloan != null">
-        #{hassmallloan,jdbcType=BIT},
+      <if test="hasSmallLoan != null">
+        #{hasSmallLoan,jdbcType=BIT},
       </if>
-      <if test="smallloanamount != null">
-        #{smallloanamount,jdbcType=VARCHAR},
+      <if test="smallLoanAmount != null">
+        #{smallLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="smallloanbalance != null">
-        #{smallloanbalance,jdbcType=VARCHAR},
+      <if test="smallLoanBalance != null">
+        #{smallLoanBalance,jdbcType=VARCHAR},
       </if>
-      <if test="smallloancnt != null">
-        #{smallloancnt,jdbcType=INTEGER},
+      <if test="smallLoanCnt != null">
+        #{smallLoanCnt,jdbcType=INTEGER},
       </if>
-      <if test="smallloanorg != null">
-        #{smallloanorg,jdbcType=VARCHAR},
+      <if test="smallLoanOrg != null">
+        #{smallLoanOrg,jdbcType=VARCHAR},
       </if>
-      <if test="hascreditcard != null">
-        #{hascreditcard,jdbcType=BIT},
+      <if test="hasCreditCard != null">
+        #{hasCreditCard,jdbcType=BIT},
       </if>
-      <if test="creditcardcnt != null">
-        #{creditcardcnt,jdbcType=INTEGER},
+      <if test="creditCardCnt != null">
+        #{creditCardCnt,jdbcType=INTEGER},
       </if>
-      <if test="creditcardquota != null">
-        #{creditcardquota,jdbcType=VARCHAR},
+      <if test="creditCardQuota != null">
+        #{creditCardQuota,jdbcType=VARCHAR},
       </if>
-      <if test="creditcarddebt != null">
-        #{creditcarddebt,jdbcType=VARCHAR},
+      <if test="creditCardDebt != null">
+        #{creditCardDebt,jdbcType=VARCHAR},
       </if>
-      <if test="hasothernotcreditloan != null">
-        #{hasothernotcreditloan,jdbcType=BIT},
+      <if test="hasOtherNotCreditLoan != null">
+        #{hasOtherNotCreditLoan,jdbcType=BIT},
       </if>
-      <if test="othernotcreditloancnt != null">
-        #{othernotcreditloancnt,jdbcType=VARCHAR},
+      <if test="otherNotCreditLoanCnt != null">
+        #{otherNotCreditLoanCnt,jdbcType=VARCHAR},
       </if>
-      <if test="othernotcreditloanamount != null">
-        #{othernotcreditloanamount,jdbcType=VARCHAR},
+      <if test="otherNotCreditLoanAmount != null">
+        #{otherNotCreditLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="othernotcreditloanorg != null">
-        #{othernotcreditloanorg,jdbcType=VARCHAR},
+      <if test="otherNotCreditLoanOrg != null">
+        #{otherNotCreditLoanOrg,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -304,77 +304,77 @@
   <update id="updateByExampleSelective" parameterType="map">
     update zb_tdyuan_user_debt
     <set>
-      <if test="record.dbtId != null">
-        dbt_id = #{record.dbtId,jdbcType=INTEGER},
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
       </if>
-      <if test="record.hascreditloan != null">
-        hasCreditLoan = #{record.hascreditloan,jdbcType=BIT},
+      <if test="record.hasCreditLoan != null">
+        hasCreditLoan = #{record.hasCreditLoan,jdbcType=BIT},
       </if>
-      <if test="record.creditloanamount != null">
-        creditLoanAmount = #{record.creditloanamount,jdbcType=VARCHAR},
+      <if test="record.creditLoanAmount != null">
+        creditLoanAmount = #{record.creditLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="record.creditloanbalance != null">
-        creditLoanBalance = #{record.creditloanbalance,jdbcType=VARCHAR},
+      <if test="record.creditLoanBalance != null">
+        creditLoanBalance = #{record.creditLoanBalance,jdbcType=VARCHAR},
       </if>
-      <if test="record.creditloancnt != null">
-        creditLoanCnt = #{record.creditloancnt,jdbcType=INTEGER},
+      <if test="record.creditLoanCnt != null">
+        creditLoanCnt = #{record.creditLoanCnt,jdbcType=INTEGER},
       </if>
-      <if test="record.creditloanorg != null">
-        creditLoanOrg = #{record.creditloanorg,jdbcType=VARCHAR},
+      <if test="record.creditLoanOrg != null">
+        creditLoanOrg = #{record.creditLoanOrg,jdbcType=VARCHAR},
       </if>
-      <if test="record.hassmallmortgageloan != null">
-        hasSmallMortgageLoan = #{record.hassmallmortgageloan,jdbcType=BIT},
+      <if test="record.hasSmallMortgageLoan != null">
+        hasSmallMortgageLoan = #{record.hasSmallMortgageLoan,jdbcType=BIT},
       </if>
-      <if test="record.smallmortgageamount != null">
-        smallMortgageAmount = #{record.smallmortgageamount,jdbcType=VARCHAR},
+      <if test="record.smallMortgageAmount != null">
+        smallMortgageAmount = #{record.smallMortgageAmount,jdbcType=VARCHAR},
       </if>
-      <if test="record.smallmortgagebalance != null">
-        smallMortgageBalance = #{record.smallmortgagebalance,jdbcType=VARCHAR},
+      <if test="record.smallMortgageBalance != null">
+        smallMortgageBalance = #{record.smallMortgageBalance,jdbcType=VARCHAR},
       </if>
-      <if test="record.smallmortgagecnt != null">
-        smallMortgageCnt = #{record.smallmortgagecnt,jdbcType=INTEGER},
+      <if test="record.smallMortgageCnt != null">
+        smallMortgageCnt = #{record.smallMortgageCnt,jdbcType=INTEGER},
       </if>
-      <if test="record.smallmortgageorg != null">
-        smallMortgageOrg = #{record.smallmortgageorg,jdbcType=VARCHAR},
+      <if test="record.smallMortgageOrg != null">
+        smallMortgageOrg = #{record.smallMortgageOrg,jdbcType=VARCHAR},
       </if>
-      <if test="record.hassmallloan != null">
-        hasSmallLoan = #{record.hassmallloan,jdbcType=BIT},
+      <if test="record.hasSmallLoan != null">
+        hasSmallLoan = #{record.hasSmallLoan,jdbcType=BIT},
       </if>
-      <if test="record.smallloanamount != null">
-        smallLoanAmount = #{record.smallloanamount,jdbcType=VARCHAR},
+      <if test="record.smallLoanAmount != null">
+        smallLoanAmount = #{record.smallLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="record.smallloanbalance != null">
-        smallLoanBalance = #{record.smallloanbalance,jdbcType=VARCHAR},
+      <if test="record.smallLoanBalance != null">
+        smallLoanBalance = #{record.smallLoanBalance,jdbcType=VARCHAR},
       </if>
-      <if test="record.smallloancnt != null">
-        smallLoanCnt = #{record.smallloancnt,jdbcType=INTEGER},
+      <if test="record.smallLoanCnt != null">
+        smallLoanCnt = #{record.smallLoanCnt,jdbcType=INTEGER},
       </if>
-      <if test="record.smallloanorg != null">
-        smallLoanOrg = #{record.smallloanorg,jdbcType=VARCHAR},
+      <if test="record.smallLoanOrg != null">
+        smallLoanOrg = #{record.smallLoanOrg,jdbcType=VARCHAR},
       </if>
-      <if test="record.hascreditcard != null">
-        hasCreditCard = #{record.hascreditcard,jdbcType=BIT},
+      <if test="record.hasCreditCard != null">
+        hasCreditCard = #{record.hasCreditCard,jdbcType=BIT},
       </if>
-      <if test="record.creditcardcnt != null">
-        creditCardCnt = #{record.creditcardcnt,jdbcType=INTEGER},
+      <if test="record.creditCardCnt != null">
+        creditCardCnt = #{record.creditCardCnt,jdbcType=INTEGER},
       </if>
-      <if test="record.creditcardquota != null">
-        creditCardQuota = #{record.creditcardquota,jdbcType=VARCHAR},
+      <if test="record.creditCardQuota != null">
+        creditCardQuota = #{record.creditCardQuota,jdbcType=VARCHAR},
       </if>
-      <if test="record.creditcarddebt != null">
-        creditCardDebt = #{record.creditcarddebt,jdbcType=VARCHAR},
+      <if test="record.creditCardDebt != null">
+        creditCardDebt = #{record.creditCardDebt,jdbcType=VARCHAR},
       </if>
-      <if test="record.hasothernotcreditloan != null">
-        hasOtherNotCreditLoan = #{record.hasothernotcreditloan,jdbcType=BIT},
+      <if test="record.hasOtherNotCreditLoan != null">
+        hasOtherNotCreditLoan = #{record.hasOtherNotCreditLoan,jdbcType=BIT},
       </if>
-      <if test="record.othernotcreditloancnt != null">
-        otherNotCreditLoanCnt = #{record.othernotcreditloancnt,jdbcType=VARCHAR},
+      <if test="record.otherNotCreditLoanCnt != null">
+        otherNotCreditLoanCnt = #{record.otherNotCreditLoanCnt,jdbcType=VARCHAR},
       </if>
-      <if test="record.othernotcreditloanamount != null">
-        otherNotCreditLoanAmount = #{record.othernotcreditloanamount,jdbcType=VARCHAR},
+      <if test="record.otherNotCreditLoanAmount != null">
+        otherNotCreditLoanAmount = #{record.otherNotCreditLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="record.othernotcreditloanorg != null">
-        otherNotCreditLoanOrg = #{record.othernotcreditloanorg,jdbcType=VARCHAR},
+      <if test="record.otherNotCreditLoanOrg != null">
+        otherNotCreditLoanOrg = #{record.otherNotCreditLoanOrg,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null">
@@ -383,30 +383,30 @@
   </update>
   <update id="updateByExample" parameterType="map">
     update zb_tdyuan_user_debt
-    set dbt_id = #{record.dbtId,jdbcType=INTEGER},
-      hasCreditLoan = #{record.hascreditloan,jdbcType=BIT},
-      creditLoanAmount = #{record.creditloanamount,jdbcType=VARCHAR},
-      creditLoanBalance = #{record.creditloanbalance,jdbcType=VARCHAR},
-      creditLoanCnt = #{record.creditloancnt,jdbcType=INTEGER},
-      creditLoanOrg = #{record.creditloanorg,jdbcType=VARCHAR},
-      hasSmallMortgageLoan = #{record.hassmallmortgageloan,jdbcType=BIT},
-      smallMortgageAmount = #{record.smallmortgageamount,jdbcType=VARCHAR},
-      smallMortgageBalance = #{record.smallmortgagebalance,jdbcType=VARCHAR},
-      smallMortgageCnt = #{record.smallmortgagecnt,jdbcType=INTEGER},
-      smallMortgageOrg = #{record.smallmortgageorg,jdbcType=VARCHAR},
-      hasSmallLoan = #{record.hassmallloan,jdbcType=BIT},
-      smallLoanAmount = #{record.smallloanamount,jdbcType=VARCHAR},
-      smallLoanBalance = #{record.smallloanbalance,jdbcType=VARCHAR},
-      smallLoanCnt = #{record.smallloancnt,jdbcType=INTEGER},
-      smallLoanOrg = #{record.smallloanorg,jdbcType=VARCHAR},
-      hasCreditCard = #{record.hascreditcard,jdbcType=BIT},
-      creditCardCnt = #{record.creditcardcnt,jdbcType=INTEGER},
-      creditCardQuota = #{record.creditcardquota,jdbcType=VARCHAR},
-      creditCardDebt = #{record.creditcarddebt,jdbcType=VARCHAR},
-      hasOtherNotCreditLoan = #{record.hasothernotcreditloan,jdbcType=BIT},
-      otherNotCreditLoanCnt = #{record.othernotcreditloancnt,jdbcType=VARCHAR},
-      otherNotCreditLoanAmount = #{record.othernotcreditloanamount,jdbcType=VARCHAR},
-      otherNotCreditLoanOrg = #{record.othernotcreditloanorg,jdbcType=VARCHAR}
+    set id = #{record.id,jdbcType=INTEGER},
+      hasCreditLoan = #{record.hasCreditLoan,jdbcType=BIT},
+      creditLoanAmount = #{record.creditLoanAmount,jdbcType=VARCHAR},
+      creditLoanBalance = #{record.creditLoanBalance,jdbcType=VARCHAR},
+      creditLoanCnt = #{record.creditLoanCnt,jdbcType=INTEGER},
+      creditLoanOrg = #{record.creditLoanOrg,jdbcType=VARCHAR},
+      hasSmallMortgageLoan = #{record.hasSmallMortgageLoan,jdbcType=BIT},
+      smallMortgageAmount = #{record.smallMortgageAmount,jdbcType=VARCHAR},
+      smallMortgageBalance = #{record.smallMortgageBalance,jdbcType=VARCHAR},
+      smallMortgageCnt = #{record.smallMortgageCnt,jdbcType=INTEGER},
+      smallMortgageOrg = #{record.smallMortgageOrg,jdbcType=VARCHAR},
+      hasSmallLoan = #{record.hasSmallLoan,jdbcType=BIT},
+      smallLoanAmount = #{record.smallLoanAmount,jdbcType=VARCHAR},
+      smallLoanBalance = #{record.smallLoanBalance,jdbcType=VARCHAR},
+      smallLoanCnt = #{record.smallLoanCnt,jdbcType=INTEGER},
+      smallLoanOrg = #{record.smallLoanOrg,jdbcType=VARCHAR},
+      hasCreditCard = #{record.hasCreditCard,jdbcType=BIT},
+      creditCardCnt = #{record.creditCardCnt,jdbcType=INTEGER},
+      creditCardQuota = #{record.creditCardQuota,jdbcType=VARCHAR},
+      creditCardDebt = #{record.creditCardDebt,jdbcType=VARCHAR},
+      hasOtherNotCreditLoan = #{record.hasOtherNotCreditLoan,jdbcType=BIT},
+      otherNotCreditLoanCnt = #{record.otherNotCreditLoanCnt,jdbcType=VARCHAR},
+      otherNotCreditLoanAmount = #{record.otherNotCreditLoanAmount,jdbcType=VARCHAR},
+      otherNotCreditLoanOrg = #{record.otherNotCreditLoanOrg,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -414,103 +414,103 @@
   <update id="updateByPrimaryKeySelective" parameterType="po.ZbTdyuanUserDebt">
     update zb_tdyuan_user_debt
     <set>
-      <if test="hascreditloan != null">
-        hasCreditLoan = #{hascreditloan,jdbcType=BIT},
+      <if test="hasCreditLoan != null">
+        hasCreditLoan = #{hasCreditLoan,jdbcType=BIT},
       </if>
-      <if test="creditloanamount != null">
-        creditLoanAmount = #{creditloanamount,jdbcType=VARCHAR},
+      <if test="creditLoanAmount != null">
+        creditLoanAmount = #{creditLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="creditloanbalance != null">
-        creditLoanBalance = #{creditloanbalance,jdbcType=VARCHAR},
+      <if test="creditLoanBalance != null">
+        creditLoanBalance = #{creditLoanBalance,jdbcType=VARCHAR},
       </if>
-      <if test="creditloancnt != null">
-        creditLoanCnt = #{creditloancnt,jdbcType=INTEGER},
+      <if test="creditLoanCnt != null">
+        creditLoanCnt = #{creditLoanCnt,jdbcType=INTEGER},
       </if>
-      <if test="creditloanorg != null">
-        creditLoanOrg = #{creditloanorg,jdbcType=VARCHAR},
+      <if test="creditLoanOrg != null">
+        creditLoanOrg = #{creditLoanOrg,jdbcType=VARCHAR},
       </if>
-      <if test="hassmallmortgageloan != null">
-        hasSmallMortgageLoan = #{hassmallmortgageloan,jdbcType=BIT},
+      <if test="hasSmallMortgageLoan != null">
+        hasSmallMortgageLoan = #{hasSmallMortgageLoan,jdbcType=BIT},
       </if>
-      <if test="smallmortgageamount != null">
-        smallMortgageAmount = #{smallmortgageamount,jdbcType=VARCHAR},
+      <if test="smallMortgageAmount != null">
+        smallMortgageAmount = #{smallMortgageAmount,jdbcType=VARCHAR},
       </if>
-      <if test="smallmortgagebalance != null">
-        smallMortgageBalance = #{smallmortgagebalance,jdbcType=VARCHAR},
+      <if test="smallMortgageBalance != null">
+        smallMortgageBalance = #{smallMortgageBalance,jdbcType=VARCHAR},
       </if>
-      <if test="smallmortgagecnt != null">
-        smallMortgageCnt = #{smallmortgagecnt,jdbcType=INTEGER},
+      <if test="smallMortgageCnt != null">
+        smallMortgageCnt = #{smallMortgageCnt,jdbcType=INTEGER},
       </if>
-      <if test="smallmortgageorg != null">
-        smallMortgageOrg = #{smallmortgageorg,jdbcType=VARCHAR},
+      <if test="smallMortgageOrg != null">
+        smallMortgageOrg = #{smallMortgageOrg,jdbcType=VARCHAR},
       </if>
-      <if test="hassmallloan != null">
-        hasSmallLoan = #{hassmallloan,jdbcType=BIT},
+      <if test="hasSmallLoan != null">
+        hasSmallLoan = #{hasSmallLoan,jdbcType=BIT},
       </if>
-      <if test="smallloanamount != null">
-        smallLoanAmount = #{smallloanamount,jdbcType=VARCHAR},
+      <if test="smallLoanAmount != null">
+        smallLoanAmount = #{smallLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="smallloanbalance != null">
-        smallLoanBalance = #{smallloanbalance,jdbcType=VARCHAR},
+      <if test="smallLoanBalance != null">
+        smallLoanBalance = #{smallLoanBalance,jdbcType=VARCHAR},
       </if>
-      <if test="smallloancnt != null">
-        smallLoanCnt = #{smallloancnt,jdbcType=INTEGER},
+      <if test="smallLoanCnt != null">
+        smallLoanCnt = #{smallLoanCnt,jdbcType=INTEGER},
       </if>
-      <if test="smallloanorg != null">
-        smallLoanOrg = #{smallloanorg,jdbcType=VARCHAR},
+      <if test="smallLoanOrg != null">
+        smallLoanOrg = #{smallLoanOrg,jdbcType=VARCHAR},
       </if>
-      <if test="hascreditcard != null">
-        hasCreditCard = #{hascreditcard,jdbcType=BIT},
+      <if test="hasCreditCard != null">
+        hasCreditCard = #{hasCreditCard,jdbcType=BIT},
       </if>
-      <if test="creditcardcnt != null">
-        creditCardCnt = #{creditcardcnt,jdbcType=INTEGER},
+      <if test="creditCardCnt != null">
+        creditCardCnt = #{creditCardCnt,jdbcType=INTEGER},
       </if>
-      <if test="creditcardquota != null">
-        creditCardQuota = #{creditcardquota,jdbcType=VARCHAR},
+      <if test="creditCardQuota != null">
+        creditCardQuota = #{creditCardQuota,jdbcType=VARCHAR},
       </if>
-      <if test="creditcarddebt != null">
-        creditCardDebt = #{creditcarddebt,jdbcType=VARCHAR},
+      <if test="creditCardDebt != null">
+        creditCardDebt = #{creditCardDebt,jdbcType=VARCHAR},
       </if>
-      <if test="hasothernotcreditloan != null">
-        hasOtherNotCreditLoan = #{hasothernotcreditloan,jdbcType=BIT},
+      <if test="hasOtherNotCreditLoan != null">
+        hasOtherNotCreditLoan = #{hasOtherNotCreditLoan,jdbcType=BIT},
       </if>
-      <if test="othernotcreditloancnt != null">
-        otherNotCreditLoanCnt = #{othernotcreditloancnt,jdbcType=VARCHAR},
+      <if test="otherNotCreditLoanCnt != null">
+        otherNotCreditLoanCnt = #{otherNotCreditLoanCnt,jdbcType=VARCHAR},
       </if>
-      <if test="othernotcreditloanamount != null">
-        otherNotCreditLoanAmount = #{othernotcreditloanamount,jdbcType=VARCHAR},
+      <if test="otherNotCreditLoanAmount != null">
+        otherNotCreditLoanAmount = #{otherNotCreditLoanAmount,jdbcType=VARCHAR},
       </if>
-      <if test="othernotcreditloanorg != null">
-        otherNotCreditLoanOrg = #{othernotcreditloanorg,jdbcType=VARCHAR},
+      <if test="otherNotCreditLoanOrg != null">
+        otherNotCreditLoanOrg = #{otherNotCreditLoanOrg,jdbcType=VARCHAR},
       </if>
     </set>
-    where dbt_id = #{dbtId,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="po.ZbTdyuanUserDebt">
     update zb_tdyuan_user_debt
-    set hasCreditLoan = #{hascreditloan,jdbcType=BIT},
-      creditLoanAmount = #{creditloanamount,jdbcType=VARCHAR},
-      creditLoanBalance = #{creditloanbalance,jdbcType=VARCHAR},
-      creditLoanCnt = #{creditloancnt,jdbcType=INTEGER},
-      creditLoanOrg = #{creditloanorg,jdbcType=VARCHAR},
-      hasSmallMortgageLoan = #{hassmallmortgageloan,jdbcType=BIT},
-      smallMortgageAmount = #{smallmortgageamount,jdbcType=VARCHAR},
-      smallMortgageBalance = #{smallmortgagebalance,jdbcType=VARCHAR},
-      smallMortgageCnt = #{smallmortgagecnt,jdbcType=INTEGER},
-      smallMortgageOrg = #{smallmortgageorg,jdbcType=VARCHAR},
-      hasSmallLoan = #{hassmallloan,jdbcType=BIT},
-      smallLoanAmount = #{smallloanamount,jdbcType=VARCHAR},
-      smallLoanBalance = #{smallloanbalance,jdbcType=VARCHAR},
-      smallLoanCnt = #{smallloancnt,jdbcType=INTEGER},
-      smallLoanOrg = #{smallloanorg,jdbcType=VARCHAR},
-      hasCreditCard = #{hascreditcard,jdbcType=BIT},
-      creditCardCnt = #{creditcardcnt,jdbcType=INTEGER},
-      creditCardQuota = #{creditcardquota,jdbcType=VARCHAR},
-      creditCardDebt = #{creditcarddebt,jdbcType=VARCHAR},
-      hasOtherNotCreditLoan = #{hasothernotcreditloan,jdbcType=BIT},
-      otherNotCreditLoanCnt = #{othernotcreditloancnt,jdbcType=VARCHAR},
-      otherNotCreditLoanAmount = #{othernotcreditloanamount,jdbcType=VARCHAR},
-      otherNotCreditLoanOrg = #{othernotcreditloanorg,jdbcType=VARCHAR}
-    where dbt_id = #{dbtId,jdbcType=INTEGER}
+    set hasCreditLoan = #{hasCreditLoan,jdbcType=BIT},
+      creditLoanAmount = #{creditLoanAmount,jdbcType=VARCHAR},
+      creditLoanBalance = #{creditLoanBalance,jdbcType=VARCHAR},
+      creditLoanCnt = #{creditLoanCnt,jdbcType=INTEGER},
+      creditLoanOrg = #{creditLoanOrg,jdbcType=VARCHAR},
+      hasSmallMortgageLoan = #{hasSmallMortgageLoan,jdbcType=BIT},
+      smallMortgageAmount = #{smallMortgageAmount,jdbcType=VARCHAR},
+      smallMortgageBalance = #{smallMortgageBalance,jdbcType=VARCHAR},
+      smallMortgageCnt = #{smallMortgageCnt,jdbcType=INTEGER},
+      smallMortgageOrg = #{smallMortgageOrg,jdbcType=VARCHAR},
+      hasSmallLoan = #{hasSmallLoan,jdbcType=BIT},
+      smallLoanAmount = #{smallLoanAmount,jdbcType=VARCHAR},
+      smallLoanBalance = #{smallLoanBalance,jdbcType=VARCHAR},
+      smallLoanCnt = #{smallLoanCnt,jdbcType=INTEGER},
+      smallLoanOrg = #{smallLoanOrg,jdbcType=VARCHAR},
+      hasCreditCard = #{hasCreditCard,jdbcType=BIT},
+      creditCardCnt = #{creditCardCnt,jdbcType=INTEGER},
+      creditCardQuota = #{creditCardQuota,jdbcType=VARCHAR},
+      creditCardDebt = #{creditCardDebt,jdbcType=VARCHAR},
+      hasOtherNotCreditLoan = #{hasOtherNotCreditLoan,jdbcType=BIT},
+      otherNotCreditLoanCnt = #{otherNotCreditLoanCnt,jdbcType=VARCHAR},
+      otherNotCreditLoanAmount = #{otherNotCreditLoanAmount,jdbcType=VARCHAR},
+      otherNotCreditLoanOrg = #{otherNotCreditLoanOrg,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

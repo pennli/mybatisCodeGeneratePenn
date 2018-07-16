@@ -59,7 +59,10 @@
 
 
         <!-- 指定数据库表 -->
-        <table tableName="zb_tdyuan_user_debt"></table>
+        <table tableName="zb_tdyuan_user_debt">
+            <!--userActualColumnNames属性指定为true，以生成驼峰式命名po-->
+            <property name="useActualColumnNames" value="true" />
+        </table>
         <!--<table tableName="orders"></table>-->
         <!--<table tableName="orderdetail"></table>-->
         <!-- <table schema="" tableName="sys_user"></table>

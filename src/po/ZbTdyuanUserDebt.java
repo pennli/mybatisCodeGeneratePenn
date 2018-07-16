@@ -1,243 +1,243 @@
 package po;
 
 public class ZbTdyuanUserDebt {
-    private Integer dbtId;
+    private Integer id;
 
-    private Boolean hascreditloan;
+    private Boolean hasCreditLoan;
 
-    private String creditloanamount;
+    private String creditLoanAmount;
 
-    private String creditloanbalance;
+    private String creditLoanBalance;
 
-    private Integer creditloancnt;
+    private Integer creditLoanCnt;
 
-    private String creditloanorg;
+    private String creditLoanOrg;
 
-    private Boolean hassmallmortgageloan;
+    private Boolean hasSmallMortgageLoan;
 
-    private String smallmortgageamount;
+    private String smallMortgageAmount;
 
-    private String smallmortgagebalance;
+    private String smallMortgageBalance;
 
-    private Integer smallmortgagecnt;
+    private Integer smallMortgageCnt;
 
-    private String smallmortgageorg;
+    private String smallMortgageOrg;
 
-    private Boolean hassmallloan;
+    private Boolean hasSmallLoan;
 
-    private String smallloanamount;
+    private String smallLoanAmount;
 
-    private String smallloanbalance;
+    private String smallLoanBalance;
 
-    private Integer smallloancnt;
+    private Integer smallLoanCnt;
 
-    private String smallloanorg;
+    private String smallLoanOrg;
 
-    private Boolean hascreditcard;
+    private Boolean hasCreditCard;
 
-    private Integer creditcardcnt;
+    private Integer creditCardCnt;
 
-    private String creditcardquota;
+    private String creditCardQuota;
 
-    private String creditcarddebt;
+    private String creditCardDebt;
 
-    private Boolean hasothernotcreditloan;
+    private Boolean hasOtherNotCreditLoan;
 
-    private String othernotcreditloancnt;
+    private String otherNotCreditLoanCnt;
 
-    private String othernotcreditloanamount;
+    private String otherNotCreditLoanAmount;
 
-    private String othernotcreditloanorg;
+    private String otherNotCreditLoanOrg;
 
-    public Integer getDbtId() {
-        return dbtId;
+    public Integer getId() {
+        return id;
     }
 
-    public void setDbtId(Integer dbtId) {
-        this.dbtId = dbtId;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public Boolean getHascreditloan() {
-        return hascreditloan;
+    public Boolean getHasCreditLoan() {
+        return hasCreditLoan;
     }
 
-    public void setHascreditloan(Boolean hascreditloan) {
-        this.hascreditloan = hascreditloan;
+    public void setHasCreditLoan(Boolean hasCreditLoan) {
+        this.hasCreditLoan = hasCreditLoan;
     }
 
-    public String getCreditloanamount() {
-        return creditloanamount;
+    public String getCreditLoanAmount() {
+        return creditLoanAmount;
     }
 
-    public void setCreditloanamount(String creditloanamount) {
-        this.creditloanamount = creditloanamount == null ? null : creditloanamount.trim();
+    public void setCreditLoanAmount(String creditLoanAmount) {
+        this.creditLoanAmount = creditLoanAmount == null ? null : creditLoanAmount.trim();
     }
 
-    public String getCreditloanbalance() {
-        return creditloanbalance;
+    public String getCreditLoanBalance() {
+        return creditLoanBalance;
     }
 
-    public void setCreditloanbalance(String creditloanbalance) {
-        this.creditloanbalance = creditloanbalance == null ? null : creditloanbalance.trim();
+    public void setCreditLoanBalance(String creditLoanBalance) {
+        this.creditLoanBalance = creditLoanBalance == null ? null : creditLoanBalance.trim();
     }
 
-    public Integer getCreditloancnt() {
-        return creditloancnt;
+    public Integer getCreditLoanCnt() {
+        return creditLoanCnt;
     }
 
-    public void setCreditloancnt(Integer creditloancnt) {
-        this.creditloancnt = creditloancnt;
+    public void setCreditLoanCnt(Integer creditLoanCnt) {
+        this.creditLoanCnt = creditLoanCnt;
     }
 
-    public String getCreditloanorg() {
-        return creditloanorg;
+    public String getCreditLoanOrg() {
+        return creditLoanOrg;
     }
 
-    public void setCreditloanorg(String creditloanorg) {
-        this.creditloanorg = creditloanorg == null ? null : creditloanorg.trim();
+    public void setCreditLoanOrg(String creditLoanOrg) {
+        this.creditLoanOrg = creditLoanOrg == null ? null : creditLoanOrg.trim();
     }
 
-    public Boolean getHassmallmortgageloan() {
-        return hassmallmortgageloan;
+    public Boolean getHasSmallMortgageLoan() {
+        return hasSmallMortgageLoan;
     }
 
-    public void setHassmallmortgageloan(Boolean hassmallmortgageloan) {
-        this.hassmallmortgageloan = hassmallmortgageloan;
+    public void setHasSmallMortgageLoan(Boolean hasSmallMortgageLoan) {
+        this.hasSmallMortgageLoan = hasSmallMortgageLoan;
     }
 
-    public String getSmallmortgageamount() {
-        return smallmortgageamount;
+    public String getSmallMortgageAmount() {
+        return smallMortgageAmount;
     }
 
-    public void setSmallmortgageamount(String smallmortgageamount) {
-        this.smallmortgageamount = smallmortgageamount == null ? null : smallmortgageamount.trim();
+    public void setSmallMortgageAmount(String smallMortgageAmount) {
+        this.smallMortgageAmount = smallMortgageAmount == null ? null : smallMortgageAmount.trim();
     }
 
-    public String getSmallmortgagebalance() {
-        return smallmortgagebalance;
+    public String getSmallMortgageBalance() {
+        return smallMortgageBalance;
     }
 
-    public void setSmallmortgagebalance(String smallmortgagebalance) {
-        this.smallmortgagebalance = smallmortgagebalance == null ? null : smallmortgagebalance.trim();
+    public void setSmallMortgageBalance(String smallMortgageBalance) {
+        this.smallMortgageBalance = smallMortgageBalance == null ? null : smallMortgageBalance.trim();
     }
 
-    public Integer getSmallmortgagecnt() {
-        return smallmortgagecnt;
+    public Integer getSmallMortgageCnt() {
+        return smallMortgageCnt;
     }
 
-    public void setSmallmortgagecnt(Integer smallmortgagecnt) {
-        this.smallmortgagecnt = smallmortgagecnt;
+    public void setSmallMortgageCnt(Integer smallMortgageCnt) {
+        this.smallMortgageCnt = smallMortgageCnt;
     }
 
-    public String getSmallmortgageorg() {
-        return smallmortgageorg;
+    public String getSmallMortgageOrg() {
+        return smallMortgageOrg;
     }
 
-    public void setSmallmortgageorg(String smallmortgageorg) {
-        this.smallmortgageorg = smallmortgageorg == null ? null : smallmortgageorg.trim();
+    public void setSmallMortgageOrg(String smallMortgageOrg) {
+        this.smallMortgageOrg = smallMortgageOrg == null ? null : smallMortgageOrg.trim();
     }
 
-    public Boolean getHassmallloan() {
-        return hassmallloan;
+    public Boolean getHasSmallLoan() {
+        return hasSmallLoan;
     }
 
-    public void setHassmallloan(Boolean hassmallloan) {
-        this.hassmallloan = hassmallloan;
+    public void setHasSmallLoan(Boolean hasSmallLoan) {
+        this.hasSmallLoan = hasSmallLoan;
     }
 
-    public String getSmallloanamount() {
-        return smallloanamount;
+    public String getSmallLoanAmount() {
+        return smallLoanAmount;
     }
 
-    public void setSmallloanamount(String smallloanamount) {
-        this.smallloanamount = smallloanamount == null ? null : smallloanamount.trim();
+    public void setSmallLoanAmount(String smallLoanAmount) {
+        this.smallLoanAmount = smallLoanAmount == null ? null : smallLoanAmount.trim();
     }
 
-    public String getSmallloanbalance() {
-        return smallloanbalance;
+    public String getSmallLoanBalance() {
+        return smallLoanBalance;
     }
 
-    public void setSmallloanbalance(String smallloanbalance) {
-        this.smallloanbalance = smallloanbalance == null ? null : smallloanbalance.trim();
+    public void setSmallLoanBalance(String smallLoanBalance) {
+        this.smallLoanBalance = smallLoanBalance == null ? null : smallLoanBalance.trim();
     }
 
-    public Integer getSmallloancnt() {
-        return smallloancnt;
+    public Integer getSmallLoanCnt() {
+        return smallLoanCnt;
     }
 
-    public void setSmallloancnt(Integer smallloancnt) {
-        this.smallloancnt = smallloancnt;
+    public void setSmallLoanCnt(Integer smallLoanCnt) {
+        this.smallLoanCnt = smallLoanCnt;
     }
 
-    public String getSmallloanorg() {
-        return smallloanorg;
+    public String getSmallLoanOrg() {
+        return smallLoanOrg;
     }
 
-    public void setSmallloanorg(String smallloanorg) {
-        this.smallloanorg = smallloanorg == null ? null : smallloanorg.trim();
+    public void setSmallLoanOrg(String smallLoanOrg) {
+        this.smallLoanOrg = smallLoanOrg == null ? null : smallLoanOrg.trim();
     }
 
-    public Boolean getHascreditcard() {
-        return hascreditcard;
+    public Boolean getHasCreditCard() {
+        return hasCreditCard;
     }
 
-    public void setHascreditcard(Boolean hascreditcard) {
-        this.hascreditcard = hascreditcard;
+    public void setHasCreditCard(Boolean hasCreditCard) {
+        this.hasCreditCard = hasCreditCard;
     }
 
-    public Integer getCreditcardcnt() {
-        return creditcardcnt;
+    public Integer getCreditCardCnt() {
+        return creditCardCnt;
     }
 
-    public void setCreditcardcnt(Integer creditcardcnt) {
-        this.creditcardcnt = creditcardcnt;
+    public void setCreditCardCnt(Integer creditCardCnt) {
+        this.creditCardCnt = creditCardCnt;
     }
 
-    public String getCreditcardquota() {
-        return creditcardquota;
+    public String getCreditCardQuota() {
+        return creditCardQuota;
     }
 
-    public void setCreditcardquota(String creditcardquota) {
-        this.creditcardquota = creditcardquota == null ? null : creditcardquota.trim();
+    public void setCreditCardQuota(String creditCardQuota) {
+        this.creditCardQuota = creditCardQuota == null ? null : creditCardQuota.trim();
     }
 
-    public String getCreditcarddebt() {
-        return creditcarddebt;
+    public String getCreditCardDebt() {
+        return creditCardDebt;
     }
 
-    public void setCreditcarddebt(String creditcarddebt) {
-        this.creditcarddebt = creditcarddebt == null ? null : creditcarddebt.trim();
+    public void setCreditCardDebt(String creditCardDebt) {
+        this.creditCardDebt = creditCardDebt == null ? null : creditCardDebt.trim();
     }
 
-    public Boolean getHasothernotcreditloan() {
-        return hasothernotcreditloan;
+    public Boolean getHasOtherNotCreditLoan() {
+        return hasOtherNotCreditLoan;
     }
 
-    public void setHasothernotcreditloan(Boolean hasothernotcreditloan) {
-        this.hasothernotcreditloan = hasothernotcreditloan;
+    public void setHasOtherNotCreditLoan(Boolean hasOtherNotCreditLoan) {
+        this.hasOtherNotCreditLoan = hasOtherNotCreditLoan;
     }
 
-    public String getOthernotcreditloancnt() {
-        return othernotcreditloancnt;
+    public String getOtherNotCreditLoanCnt() {
+        return otherNotCreditLoanCnt;
     }
 
-    public void setOthernotcreditloancnt(String othernotcreditloancnt) {
-        this.othernotcreditloancnt = othernotcreditloancnt == null ? null : othernotcreditloancnt.trim();
+    public void setOtherNotCreditLoanCnt(String otherNotCreditLoanCnt) {
+        this.otherNotCreditLoanCnt = otherNotCreditLoanCnt == null ? null : otherNotCreditLoanCnt.trim();
     }
 
-    public String getOthernotcreditloanamount() {
-        return othernotcreditloanamount;
+    public String getOtherNotCreditLoanAmount() {
+        return otherNotCreditLoanAmount;
     }
 
-    public void setOthernotcreditloanamount(String othernotcreditloanamount) {
-        this.othernotcreditloanamount = othernotcreditloanamount == null ? null : othernotcreditloanamount.trim();
+    public void setOtherNotCreditLoanAmount(String otherNotCreditLoanAmount) {
+        this.otherNotCreditLoanAmount = otherNotCreditLoanAmount == null ? null : otherNotCreditLoanAmount.trim();
     }
 
-    public String getOthernotcreditloanorg() {
-        return othernotcreditloanorg;
+    public String getOtherNotCreditLoanOrg() {
+        return otherNotCreditLoanOrg;
     }
 
-    public void setOthernotcreditloanorg(String othernotcreditloanorg) {
-        this.othernotcreditloanorg = othernotcreditloanorg == null ? null : othernotcreditloanorg.trim();
+    public void setOtherNotCreditLoanOrg(String otherNotCreditLoanOrg) {
+        this.otherNotCreditLoanOrg = otherNotCreditLoanOrg == null ? null : otherNotCreditLoanOrg.trim();
     }
 }

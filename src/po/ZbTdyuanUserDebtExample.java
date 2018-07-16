@@ -104,1583 +104,1583 @@ public class ZbTdyuanUserDebtExample {
             criteria.add(new Criterion(condition, value1, value2));
         }
 
-        public Criteria andDbtIdIsNull() {
-            addCriterion("dbt_id is null");
+        public Criteria andIdIsNull() {
+            addCriterion("id is null");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdIsNotNull() {
-            addCriterion("dbt_id is not null");
+        public Criteria andIdIsNotNull() {
+            addCriterion("id is not null");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdEqualTo(Integer value) {
-            addCriterion("dbt_id =", value, "dbtId");
+        public Criteria andIdEqualTo(Integer value) {
+            addCriterion("id =", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdNotEqualTo(Integer value) {
-            addCriterion("dbt_id <>", value, "dbtId");
+        public Criteria andIdNotEqualTo(Integer value) {
+            addCriterion("id <>", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdGreaterThan(Integer value) {
-            addCriterion("dbt_id >", value, "dbtId");
+        public Criteria andIdGreaterThan(Integer value) {
+            addCriterion("id >", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdGreaterThanOrEqualTo(Integer value) {
-            addCriterion("dbt_id >=", value, "dbtId");
+        public Criteria andIdGreaterThanOrEqualTo(Integer value) {
+            addCriterion("id >=", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdLessThan(Integer value) {
-            addCriterion("dbt_id <", value, "dbtId");
+        public Criteria andIdLessThan(Integer value) {
+            addCriterion("id <", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdLessThanOrEqualTo(Integer value) {
-            addCriterion("dbt_id <=", value, "dbtId");
+        public Criteria andIdLessThanOrEqualTo(Integer value) {
+            addCriterion("id <=", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdIn(List<Integer> values) {
-            addCriterion("dbt_id in", values, "dbtId");
+        public Criteria andIdIn(List<Integer> values) {
+            addCriterion("id in", values, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdNotIn(List<Integer> values) {
-            addCriterion("dbt_id not in", values, "dbtId");
+        public Criteria andIdNotIn(List<Integer> values) {
+            addCriterion("id not in", values, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdBetween(Integer value1, Integer value2) {
-            addCriterion("dbt_id between", value1, value2, "dbtId");
+        public Criteria andIdBetween(Integer value1, Integer value2) {
+            addCriterion("id between", value1, value2, "id");
             return (Criteria) this;
         }
 
-        public Criteria andDbtIdNotBetween(Integer value1, Integer value2) {
-            addCriterion("dbt_id not between", value1, value2, "dbtId");
+        public Criteria andIdNotBetween(Integer value1, Integer value2) {
+            addCriterion("id not between", value1, value2, "id");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanIsNull() {
+        public Criteria andHasCreditLoanIsNull() {
             addCriterion("hasCreditLoan is null");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanIsNotNull() {
+        public Criteria andHasCreditLoanIsNotNull() {
             addCriterion("hasCreditLoan is not null");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanEqualTo(Boolean value) {
-            addCriterion("hasCreditLoan =", value, "hascreditloan");
+        public Criteria andHasCreditLoanEqualTo(Boolean value) {
+            addCriterion("hasCreditLoan =", value, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanNotEqualTo(Boolean value) {
-            addCriterion("hasCreditLoan <>", value, "hascreditloan");
+        public Criteria andHasCreditLoanNotEqualTo(Boolean value) {
+            addCriterion("hasCreditLoan <>", value, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanGreaterThan(Boolean value) {
-            addCriterion("hasCreditLoan >", value, "hascreditloan");
+        public Criteria andHasCreditLoanGreaterThan(Boolean value) {
+            addCriterion("hasCreditLoan >", value, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanGreaterThanOrEqualTo(Boolean value) {
-            addCriterion("hasCreditLoan >=", value, "hascreditloan");
+        public Criteria andHasCreditLoanGreaterThanOrEqualTo(Boolean value) {
+            addCriterion("hasCreditLoan >=", value, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanLessThan(Boolean value) {
-            addCriterion("hasCreditLoan <", value, "hascreditloan");
+        public Criteria andHasCreditLoanLessThan(Boolean value) {
+            addCriterion("hasCreditLoan <", value, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanLessThanOrEqualTo(Boolean value) {
-            addCriterion("hasCreditLoan <=", value, "hascreditloan");
+        public Criteria andHasCreditLoanLessThanOrEqualTo(Boolean value) {
+            addCriterion("hasCreditLoan <=", value, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanIn(List<Boolean> values) {
-            addCriterion("hasCreditLoan in", values, "hascreditloan");
+        public Criteria andHasCreditLoanIn(List<Boolean> values) {
+            addCriterion("hasCreditLoan in", values, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanNotIn(List<Boolean> values) {
-            addCriterion("hasCreditLoan not in", values, "hascreditloan");
+        public Criteria andHasCreditLoanNotIn(List<Boolean> values) {
+            addCriterion("hasCreditLoan not in", values, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasCreditLoan between", value1, value2, "hascreditloan");
+        public Criteria andHasCreditLoanBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasCreditLoan between", value1, value2, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditloanNotBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasCreditLoan not between", value1, value2, "hascreditloan");
+        public Criteria andHasCreditLoanNotBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasCreditLoan not between", value1, value2, "hasCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountIsNull() {
+        public Criteria andCreditLoanAmountIsNull() {
             addCriterion("creditLoanAmount is null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountIsNotNull() {
+        public Criteria andCreditLoanAmountIsNotNull() {
             addCriterion("creditLoanAmount is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountEqualTo(String value) {
-            addCriterion("creditLoanAmount =", value, "creditloanamount");
+        public Criteria andCreditLoanAmountEqualTo(String value) {
+            addCriterion("creditLoanAmount =", value, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountNotEqualTo(String value) {
-            addCriterion("creditLoanAmount <>", value, "creditloanamount");
+        public Criteria andCreditLoanAmountNotEqualTo(String value) {
+            addCriterion("creditLoanAmount <>", value, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountGreaterThan(String value) {
-            addCriterion("creditLoanAmount >", value, "creditloanamount");
+        public Criteria andCreditLoanAmountGreaterThan(String value) {
+            addCriterion("creditLoanAmount >", value, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountGreaterThanOrEqualTo(String value) {
-            addCriterion("creditLoanAmount >=", value, "creditloanamount");
+        public Criteria andCreditLoanAmountGreaterThanOrEqualTo(String value) {
+            addCriterion("creditLoanAmount >=", value, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountLessThan(String value) {
-            addCriterion("creditLoanAmount <", value, "creditloanamount");
+        public Criteria andCreditLoanAmountLessThan(String value) {
+            addCriterion("creditLoanAmount <", value, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountLessThanOrEqualTo(String value) {
-            addCriterion("creditLoanAmount <=", value, "creditloanamount");
+        public Criteria andCreditLoanAmountLessThanOrEqualTo(String value) {
+            addCriterion("creditLoanAmount <=", value, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountLike(String value) {
-            addCriterion("creditLoanAmount like", value, "creditloanamount");
+        public Criteria andCreditLoanAmountLike(String value) {
+            addCriterion("creditLoanAmount like", value, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountNotLike(String value) {
-            addCriterion("creditLoanAmount not like", value, "creditloanamount");
+        public Criteria andCreditLoanAmountNotLike(String value) {
+            addCriterion("creditLoanAmount not like", value, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountIn(List<String> values) {
-            addCriterion("creditLoanAmount in", values, "creditloanamount");
+        public Criteria andCreditLoanAmountIn(List<String> values) {
+            addCriterion("creditLoanAmount in", values, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountNotIn(List<String> values) {
-            addCriterion("creditLoanAmount not in", values, "creditloanamount");
+        public Criteria andCreditLoanAmountNotIn(List<String> values) {
+            addCriterion("creditLoanAmount not in", values, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountBetween(String value1, String value2) {
-            addCriterion("creditLoanAmount between", value1, value2, "creditloanamount");
+        public Criteria andCreditLoanAmountBetween(String value1, String value2) {
+            addCriterion("creditLoanAmount between", value1, value2, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanamountNotBetween(String value1, String value2) {
-            addCriterion("creditLoanAmount not between", value1, value2, "creditloanamount");
+        public Criteria andCreditLoanAmountNotBetween(String value1, String value2) {
+            addCriterion("creditLoanAmount not between", value1, value2, "creditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceIsNull() {
+        public Criteria andCreditLoanBalanceIsNull() {
             addCriterion("creditLoanBalance is null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceIsNotNull() {
+        public Criteria andCreditLoanBalanceIsNotNull() {
             addCriterion("creditLoanBalance is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceEqualTo(String value) {
-            addCriterion("creditLoanBalance =", value, "creditloanbalance");
+        public Criteria andCreditLoanBalanceEqualTo(String value) {
+            addCriterion("creditLoanBalance =", value, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceNotEqualTo(String value) {
-            addCriterion("creditLoanBalance <>", value, "creditloanbalance");
+        public Criteria andCreditLoanBalanceNotEqualTo(String value) {
+            addCriterion("creditLoanBalance <>", value, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceGreaterThan(String value) {
-            addCriterion("creditLoanBalance >", value, "creditloanbalance");
+        public Criteria andCreditLoanBalanceGreaterThan(String value) {
+            addCriterion("creditLoanBalance >", value, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceGreaterThanOrEqualTo(String value) {
-            addCriterion("creditLoanBalance >=", value, "creditloanbalance");
+        public Criteria andCreditLoanBalanceGreaterThanOrEqualTo(String value) {
+            addCriterion("creditLoanBalance >=", value, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceLessThan(String value) {
-            addCriterion("creditLoanBalance <", value, "creditloanbalance");
+        public Criteria andCreditLoanBalanceLessThan(String value) {
+            addCriterion("creditLoanBalance <", value, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceLessThanOrEqualTo(String value) {
-            addCriterion("creditLoanBalance <=", value, "creditloanbalance");
+        public Criteria andCreditLoanBalanceLessThanOrEqualTo(String value) {
+            addCriterion("creditLoanBalance <=", value, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceLike(String value) {
-            addCriterion("creditLoanBalance like", value, "creditloanbalance");
+        public Criteria andCreditLoanBalanceLike(String value) {
+            addCriterion("creditLoanBalance like", value, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceNotLike(String value) {
-            addCriterion("creditLoanBalance not like", value, "creditloanbalance");
+        public Criteria andCreditLoanBalanceNotLike(String value) {
+            addCriterion("creditLoanBalance not like", value, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceIn(List<String> values) {
-            addCriterion("creditLoanBalance in", values, "creditloanbalance");
+        public Criteria andCreditLoanBalanceIn(List<String> values) {
+            addCriterion("creditLoanBalance in", values, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceNotIn(List<String> values) {
-            addCriterion("creditLoanBalance not in", values, "creditloanbalance");
+        public Criteria andCreditLoanBalanceNotIn(List<String> values) {
+            addCriterion("creditLoanBalance not in", values, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceBetween(String value1, String value2) {
-            addCriterion("creditLoanBalance between", value1, value2, "creditloanbalance");
+        public Criteria andCreditLoanBalanceBetween(String value1, String value2) {
+            addCriterion("creditLoanBalance between", value1, value2, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanbalanceNotBetween(String value1, String value2) {
-            addCriterion("creditLoanBalance not between", value1, value2, "creditloanbalance");
+        public Criteria andCreditLoanBalanceNotBetween(String value1, String value2) {
+            addCriterion("creditLoanBalance not between", value1, value2, "creditLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntIsNull() {
+        public Criteria andCreditLoanCntIsNull() {
             addCriterion("creditLoanCnt is null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntIsNotNull() {
+        public Criteria andCreditLoanCntIsNotNull() {
             addCriterion("creditLoanCnt is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntEqualTo(Integer value) {
-            addCriterion("creditLoanCnt =", value, "creditloancnt");
+        public Criteria andCreditLoanCntEqualTo(Integer value) {
+            addCriterion("creditLoanCnt =", value, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntNotEqualTo(Integer value) {
-            addCriterion("creditLoanCnt <>", value, "creditloancnt");
+        public Criteria andCreditLoanCntNotEqualTo(Integer value) {
+            addCriterion("creditLoanCnt <>", value, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntGreaterThan(Integer value) {
-            addCriterion("creditLoanCnt >", value, "creditloancnt");
+        public Criteria andCreditLoanCntGreaterThan(Integer value) {
+            addCriterion("creditLoanCnt >", value, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntGreaterThanOrEqualTo(Integer value) {
-            addCriterion("creditLoanCnt >=", value, "creditloancnt");
+        public Criteria andCreditLoanCntGreaterThanOrEqualTo(Integer value) {
+            addCriterion("creditLoanCnt >=", value, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntLessThan(Integer value) {
-            addCriterion("creditLoanCnt <", value, "creditloancnt");
+        public Criteria andCreditLoanCntLessThan(Integer value) {
+            addCriterion("creditLoanCnt <", value, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntLessThanOrEqualTo(Integer value) {
-            addCriterion("creditLoanCnt <=", value, "creditloancnt");
+        public Criteria andCreditLoanCntLessThanOrEqualTo(Integer value) {
+            addCriterion("creditLoanCnt <=", value, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntIn(List<Integer> values) {
-            addCriterion("creditLoanCnt in", values, "creditloancnt");
+        public Criteria andCreditLoanCntIn(List<Integer> values) {
+            addCriterion("creditLoanCnt in", values, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntNotIn(List<Integer> values) {
-            addCriterion("creditLoanCnt not in", values, "creditloancnt");
+        public Criteria andCreditLoanCntNotIn(List<Integer> values) {
+            addCriterion("creditLoanCnt not in", values, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntBetween(Integer value1, Integer value2) {
-            addCriterion("creditLoanCnt between", value1, value2, "creditloancnt");
+        public Criteria andCreditLoanCntBetween(Integer value1, Integer value2) {
+            addCriterion("creditLoanCnt between", value1, value2, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloancntNotBetween(Integer value1, Integer value2) {
-            addCriterion("creditLoanCnt not between", value1, value2, "creditloancnt");
+        public Criteria andCreditLoanCntNotBetween(Integer value1, Integer value2) {
+            addCriterion("creditLoanCnt not between", value1, value2, "creditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgIsNull() {
+        public Criteria andCreditLoanOrgIsNull() {
             addCriterion("creditLoanOrg is null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgIsNotNull() {
+        public Criteria andCreditLoanOrgIsNotNull() {
             addCriterion("creditLoanOrg is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgEqualTo(String value) {
-            addCriterion("creditLoanOrg =", value, "creditloanorg");
+        public Criteria andCreditLoanOrgEqualTo(String value) {
+            addCriterion("creditLoanOrg =", value, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgNotEqualTo(String value) {
-            addCriterion("creditLoanOrg <>", value, "creditloanorg");
+        public Criteria andCreditLoanOrgNotEqualTo(String value) {
+            addCriterion("creditLoanOrg <>", value, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgGreaterThan(String value) {
-            addCriterion("creditLoanOrg >", value, "creditloanorg");
+        public Criteria andCreditLoanOrgGreaterThan(String value) {
+            addCriterion("creditLoanOrg >", value, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgGreaterThanOrEqualTo(String value) {
-            addCriterion("creditLoanOrg >=", value, "creditloanorg");
+        public Criteria andCreditLoanOrgGreaterThanOrEqualTo(String value) {
+            addCriterion("creditLoanOrg >=", value, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgLessThan(String value) {
-            addCriterion("creditLoanOrg <", value, "creditloanorg");
+        public Criteria andCreditLoanOrgLessThan(String value) {
+            addCriterion("creditLoanOrg <", value, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgLessThanOrEqualTo(String value) {
-            addCriterion("creditLoanOrg <=", value, "creditloanorg");
+        public Criteria andCreditLoanOrgLessThanOrEqualTo(String value) {
+            addCriterion("creditLoanOrg <=", value, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgLike(String value) {
-            addCriterion("creditLoanOrg like", value, "creditloanorg");
+        public Criteria andCreditLoanOrgLike(String value) {
+            addCriterion("creditLoanOrg like", value, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgNotLike(String value) {
-            addCriterion("creditLoanOrg not like", value, "creditloanorg");
+        public Criteria andCreditLoanOrgNotLike(String value) {
+            addCriterion("creditLoanOrg not like", value, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgIn(List<String> values) {
-            addCriterion("creditLoanOrg in", values, "creditloanorg");
+        public Criteria andCreditLoanOrgIn(List<String> values) {
+            addCriterion("creditLoanOrg in", values, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgNotIn(List<String> values) {
-            addCriterion("creditLoanOrg not in", values, "creditloanorg");
+        public Criteria andCreditLoanOrgNotIn(List<String> values) {
+            addCriterion("creditLoanOrg not in", values, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgBetween(String value1, String value2) {
-            addCriterion("creditLoanOrg between", value1, value2, "creditloanorg");
+        public Criteria andCreditLoanOrgBetween(String value1, String value2) {
+            addCriterion("creditLoanOrg between", value1, value2, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andCreditloanorgNotBetween(String value1, String value2) {
-            addCriterion("creditLoanOrg not between", value1, value2, "creditloanorg");
+        public Criteria andCreditLoanOrgNotBetween(String value1, String value2) {
+            addCriterion("creditLoanOrg not between", value1, value2, "creditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanIsNull() {
+        public Criteria andHasSmallMortgageLoanIsNull() {
             addCriterion("hasSmallMortgageLoan is null");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanIsNotNull() {
+        public Criteria andHasSmallMortgageLoanIsNotNull() {
             addCriterion("hasSmallMortgageLoan is not null");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanEqualTo(Boolean value) {
-            addCriterion("hasSmallMortgageLoan =", value, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanEqualTo(Boolean value) {
+            addCriterion("hasSmallMortgageLoan =", value, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanNotEqualTo(Boolean value) {
-            addCriterion("hasSmallMortgageLoan <>", value, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanNotEqualTo(Boolean value) {
+            addCriterion("hasSmallMortgageLoan <>", value, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanGreaterThan(Boolean value) {
-            addCriterion("hasSmallMortgageLoan >", value, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanGreaterThan(Boolean value) {
+            addCriterion("hasSmallMortgageLoan >", value, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanGreaterThanOrEqualTo(Boolean value) {
-            addCriterion("hasSmallMortgageLoan >=", value, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanGreaterThanOrEqualTo(Boolean value) {
+            addCriterion("hasSmallMortgageLoan >=", value, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanLessThan(Boolean value) {
-            addCriterion("hasSmallMortgageLoan <", value, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanLessThan(Boolean value) {
+            addCriterion("hasSmallMortgageLoan <", value, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanLessThanOrEqualTo(Boolean value) {
-            addCriterion("hasSmallMortgageLoan <=", value, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanLessThanOrEqualTo(Boolean value) {
+            addCriterion("hasSmallMortgageLoan <=", value, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanIn(List<Boolean> values) {
-            addCriterion("hasSmallMortgageLoan in", values, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanIn(List<Boolean> values) {
+            addCriterion("hasSmallMortgageLoan in", values, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanNotIn(List<Boolean> values) {
-            addCriterion("hasSmallMortgageLoan not in", values, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanNotIn(List<Boolean> values) {
+            addCriterion("hasSmallMortgageLoan not in", values, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasSmallMortgageLoan between", value1, value2, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasSmallMortgageLoan between", value1, value2, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallmortgageloanNotBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasSmallMortgageLoan not between", value1, value2, "hassmallmortgageloan");
+        public Criteria andHasSmallMortgageLoanNotBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasSmallMortgageLoan not between", value1, value2, "hasSmallMortgageLoan");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountIsNull() {
+        public Criteria andSmallMortgageAmountIsNull() {
             addCriterion("smallMortgageAmount is null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountIsNotNull() {
+        public Criteria andSmallMortgageAmountIsNotNull() {
             addCriterion("smallMortgageAmount is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountEqualTo(String value) {
-            addCriterion("smallMortgageAmount =", value, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountEqualTo(String value) {
+            addCriterion("smallMortgageAmount =", value, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountNotEqualTo(String value) {
-            addCriterion("smallMortgageAmount <>", value, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountNotEqualTo(String value) {
+            addCriterion("smallMortgageAmount <>", value, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountGreaterThan(String value) {
-            addCriterion("smallMortgageAmount >", value, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountGreaterThan(String value) {
+            addCriterion("smallMortgageAmount >", value, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountGreaterThanOrEqualTo(String value) {
-            addCriterion("smallMortgageAmount >=", value, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountGreaterThanOrEqualTo(String value) {
+            addCriterion("smallMortgageAmount >=", value, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountLessThan(String value) {
-            addCriterion("smallMortgageAmount <", value, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountLessThan(String value) {
+            addCriterion("smallMortgageAmount <", value, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountLessThanOrEqualTo(String value) {
-            addCriterion("smallMortgageAmount <=", value, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountLessThanOrEqualTo(String value) {
+            addCriterion("smallMortgageAmount <=", value, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountLike(String value) {
-            addCriterion("smallMortgageAmount like", value, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountLike(String value) {
+            addCriterion("smallMortgageAmount like", value, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountNotLike(String value) {
-            addCriterion("smallMortgageAmount not like", value, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountNotLike(String value) {
+            addCriterion("smallMortgageAmount not like", value, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountIn(List<String> values) {
-            addCriterion("smallMortgageAmount in", values, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountIn(List<String> values) {
+            addCriterion("smallMortgageAmount in", values, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountNotIn(List<String> values) {
-            addCriterion("smallMortgageAmount not in", values, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountNotIn(List<String> values) {
+            addCriterion("smallMortgageAmount not in", values, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountBetween(String value1, String value2) {
-            addCriterion("smallMortgageAmount between", value1, value2, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountBetween(String value1, String value2) {
+            addCriterion("smallMortgageAmount between", value1, value2, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageamountNotBetween(String value1, String value2) {
-            addCriterion("smallMortgageAmount not between", value1, value2, "smallmortgageamount");
+        public Criteria andSmallMortgageAmountNotBetween(String value1, String value2) {
+            addCriterion("smallMortgageAmount not between", value1, value2, "smallMortgageAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceIsNull() {
+        public Criteria andSmallMortgageBalanceIsNull() {
             addCriterion("smallMortgageBalance is null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceIsNotNull() {
+        public Criteria andSmallMortgageBalanceIsNotNull() {
             addCriterion("smallMortgageBalance is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceEqualTo(String value) {
-            addCriterion("smallMortgageBalance =", value, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceEqualTo(String value) {
+            addCriterion("smallMortgageBalance =", value, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceNotEqualTo(String value) {
-            addCriterion("smallMortgageBalance <>", value, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceNotEqualTo(String value) {
+            addCriterion("smallMortgageBalance <>", value, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceGreaterThan(String value) {
-            addCriterion("smallMortgageBalance >", value, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceGreaterThan(String value) {
+            addCriterion("smallMortgageBalance >", value, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceGreaterThanOrEqualTo(String value) {
-            addCriterion("smallMortgageBalance >=", value, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceGreaterThanOrEqualTo(String value) {
+            addCriterion("smallMortgageBalance >=", value, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceLessThan(String value) {
-            addCriterion("smallMortgageBalance <", value, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceLessThan(String value) {
+            addCriterion("smallMortgageBalance <", value, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceLessThanOrEqualTo(String value) {
-            addCriterion("smallMortgageBalance <=", value, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceLessThanOrEqualTo(String value) {
+            addCriterion("smallMortgageBalance <=", value, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceLike(String value) {
-            addCriterion("smallMortgageBalance like", value, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceLike(String value) {
+            addCriterion("smallMortgageBalance like", value, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceNotLike(String value) {
-            addCriterion("smallMortgageBalance not like", value, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceNotLike(String value) {
+            addCriterion("smallMortgageBalance not like", value, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceIn(List<String> values) {
-            addCriterion("smallMortgageBalance in", values, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceIn(List<String> values) {
+            addCriterion("smallMortgageBalance in", values, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceNotIn(List<String> values) {
-            addCriterion("smallMortgageBalance not in", values, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceNotIn(List<String> values) {
+            addCriterion("smallMortgageBalance not in", values, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceBetween(String value1, String value2) {
-            addCriterion("smallMortgageBalance between", value1, value2, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceBetween(String value1, String value2) {
+            addCriterion("smallMortgageBalance between", value1, value2, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagebalanceNotBetween(String value1, String value2) {
-            addCriterion("smallMortgageBalance not between", value1, value2, "smallmortgagebalance");
+        public Criteria andSmallMortgageBalanceNotBetween(String value1, String value2) {
+            addCriterion("smallMortgageBalance not between", value1, value2, "smallMortgageBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntIsNull() {
+        public Criteria andSmallMortgageCntIsNull() {
             addCriterion("smallMortgageCnt is null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntIsNotNull() {
+        public Criteria andSmallMortgageCntIsNotNull() {
             addCriterion("smallMortgageCnt is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntEqualTo(Integer value) {
-            addCriterion("smallMortgageCnt =", value, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntEqualTo(Integer value) {
+            addCriterion("smallMortgageCnt =", value, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntNotEqualTo(Integer value) {
-            addCriterion("smallMortgageCnt <>", value, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntNotEqualTo(Integer value) {
+            addCriterion("smallMortgageCnt <>", value, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntGreaterThan(Integer value) {
-            addCriterion("smallMortgageCnt >", value, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntGreaterThan(Integer value) {
+            addCriterion("smallMortgageCnt >", value, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntGreaterThanOrEqualTo(Integer value) {
-            addCriterion("smallMortgageCnt >=", value, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntGreaterThanOrEqualTo(Integer value) {
+            addCriterion("smallMortgageCnt >=", value, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntLessThan(Integer value) {
-            addCriterion("smallMortgageCnt <", value, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntLessThan(Integer value) {
+            addCriterion("smallMortgageCnt <", value, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntLessThanOrEqualTo(Integer value) {
-            addCriterion("smallMortgageCnt <=", value, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntLessThanOrEqualTo(Integer value) {
+            addCriterion("smallMortgageCnt <=", value, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntIn(List<Integer> values) {
-            addCriterion("smallMortgageCnt in", values, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntIn(List<Integer> values) {
+            addCriterion("smallMortgageCnt in", values, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntNotIn(List<Integer> values) {
-            addCriterion("smallMortgageCnt not in", values, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntNotIn(List<Integer> values) {
+            addCriterion("smallMortgageCnt not in", values, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntBetween(Integer value1, Integer value2) {
-            addCriterion("smallMortgageCnt between", value1, value2, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntBetween(Integer value1, Integer value2) {
+            addCriterion("smallMortgageCnt between", value1, value2, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgagecntNotBetween(Integer value1, Integer value2) {
-            addCriterion("smallMortgageCnt not between", value1, value2, "smallmortgagecnt");
+        public Criteria andSmallMortgageCntNotBetween(Integer value1, Integer value2) {
+            addCriterion("smallMortgageCnt not between", value1, value2, "smallMortgageCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgIsNull() {
+        public Criteria andSmallMortgageOrgIsNull() {
             addCriterion("smallMortgageOrg is null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgIsNotNull() {
+        public Criteria andSmallMortgageOrgIsNotNull() {
             addCriterion("smallMortgageOrg is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgEqualTo(String value) {
-            addCriterion("smallMortgageOrg =", value, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgEqualTo(String value) {
+            addCriterion("smallMortgageOrg =", value, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgNotEqualTo(String value) {
-            addCriterion("smallMortgageOrg <>", value, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgNotEqualTo(String value) {
+            addCriterion("smallMortgageOrg <>", value, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgGreaterThan(String value) {
-            addCriterion("smallMortgageOrg >", value, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgGreaterThan(String value) {
+            addCriterion("smallMortgageOrg >", value, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgGreaterThanOrEqualTo(String value) {
-            addCriterion("smallMortgageOrg >=", value, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgGreaterThanOrEqualTo(String value) {
+            addCriterion("smallMortgageOrg >=", value, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgLessThan(String value) {
-            addCriterion("smallMortgageOrg <", value, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgLessThan(String value) {
+            addCriterion("smallMortgageOrg <", value, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgLessThanOrEqualTo(String value) {
-            addCriterion("smallMortgageOrg <=", value, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgLessThanOrEqualTo(String value) {
+            addCriterion("smallMortgageOrg <=", value, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgLike(String value) {
-            addCriterion("smallMortgageOrg like", value, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgLike(String value) {
+            addCriterion("smallMortgageOrg like", value, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgNotLike(String value) {
-            addCriterion("smallMortgageOrg not like", value, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgNotLike(String value) {
+            addCriterion("smallMortgageOrg not like", value, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgIn(List<String> values) {
-            addCriterion("smallMortgageOrg in", values, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgIn(List<String> values) {
+            addCriterion("smallMortgageOrg in", values, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgNotIn(List<String> values) {
-            addCriterion("smallMortgageOrg not in", values, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgNotIn(List<String> values) {
+            addCriterion("smallMortgageOrg not in", values, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgBetween(String value1, String value2) {
-            addCriterion("smallMortgageOrg between", value1, value2, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgBetween(String value1, String value2) {
+            addCriterion("smallMortgageOrg between", value1, value2, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallmortgageorgNotBetween(String value1, String value2) {
-            addCriterion("smallMortgageOrg not between", value1, value2, "smallmortgageorg");
+        public Criteria andSmallMortgageOrgNotBetween(String value1, String value2) {
+            addCriterion("smallMortgageOrg not between", value1, value2, "smallMortgageOrg");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanIsNull() {
+        public Criteria andHasSmallLoanIsNull() {
             addCriterion("hasSmallLoan is null");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanIsNotNull() {
+        public Criteria andHasSmallLoanIsNotNull() {
             addCriterion("hasSmallLoan is not null");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanEqualTo(Boolean value) {
-            addCriterion("hasSmallLoan =", value, "hassmallloan");
+        public Criteria andHasSmallLoanEqualTo(Boolean value) {
+            addCriterion("hasSmallLoan =", value, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanNotEqualTo(Boolean value) {
-            addCriterion("hasSmallLoan <>", value, "hassmallloan");
+        public Criteria andHasSmallLoanNotEqualTo(Boolean value) {
+            addCriterion("hasSmallLoan <>", value, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanGreaterThan(Boolean value) {
-            addCriterion("hasSmallLoan >", value, "hassmallloan");
+        public Criteria andHasSmallLoanGreaterThan(Boolean value) {
+            addCriterion("hasSmallLoan >", value, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanGreaterThanOrEqualTo(Boolean value) {
-            addCriterion("hasSmallLoan >=", value, "hassmallloan");
+        public Criteria andHasSmallLoanGreaterThanOrEqualTo(Boolean value) {
+            addCriterion("hasSmallLoan >=", value, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanLessThan(Boolean value) {
-            addCriterion("hasSmallLoan <", value, "hassmallloan");
+        public Criteria andHasSmallLoanLessThan(Boolean value) {
+            addCriterion("hasSmallLoan <", value, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanLessThanOrEqualTo(Boolean value) {
-            addCriterion("hasSmallLoan <=", value, "hassmallloan");
+        public Criteria andHasSmallLoanLessThanOrEqualTo(Boolean value) {
+            addCriterion("hasSmallLoan <=", value, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanIn(List<Boolean> values) {
-            addCriterion("hasSmallLoan in", values, "hassmallloan");
+        public Criteria andHasSmallLoanIn(List<Boolean> values) {
+            addCriterion("hasSmallLoan in", values, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanNotIn(List<Boolean> values) {
-            addCriterion("hasSmallLoan not in", values, "hassmallloan");
+        public Criteria andHasSmallLoanNotIn(List<Boolean> values) {
+            addCriterion("hasSmallLoan not in", values, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasSmallLoan between", value1, value2, "hassmallloan");
+        public Criteria andHasSmallLoanBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasSmallLoan between", value1, value2, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHassmallloanNotBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasSmallLoan not between", value1, value2, "hassmallloan");
+        public Criteria andHasSmallLoanNotBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasSmallLoan not between", value1, value2, "hasSmallLoan");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountIsNull() {
+        public Criteria andSmallLoanAmountIsNull() {
             addCriterion("smallLoanAmount is null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountIsNotNull() {
+        public Criteria andSmallLoanAmountIsNotNull() {
             addCriterion("smallLoanAmount is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountEqualTo(String value) {
-            addCriterion("smallLoanAmount =", value, "smallloanamount");
+        public Criteria andSmallLoanAmountEqualTo(String value) {
+            addCriterion("smallLoanAmount =", value, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountNotEqualTo(String value) {
-            addCriterion("smallLoanAmount <>", value, "smallloanamount");
+        public Criteria andSmallLoanAmountNotEqualTo(String value) {
+            addCriterion("smallLoanAmount <>", value, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountGreaterThan(String value) {
-            addCriterion("smallLoanAmount >", value, "smallloanamount");
+        public Criteria andSmallLoanAmountGreaterThan(String value) {
+            addCriterion("smallLoanAmount >", value, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountGreaterThanOrEqualTo(String value) {
-            addCriterion("smallLoanAmount >=", value, "smallloanamount");
+        public Criteria andSmallLoanAmountGreaterThanOrEqualTo(String value) {
+            addCriterion("smallLoanAmount >=", value, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountLessThan(String value) {
-            addCriterion("smallLoanAmount <", value, "smallloanamount");
+        public Criteria andSmallLoanAmountLessThan(String value) {
+            addCriterion("smallLoanAmount <", value, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountLessThanOrEqualTo(String value) {
-            addCriterion("smallLoanAmount <=", value, "smallloanamount");
+        public Criteria andSmallLoanAmountLessThanOrEqualTo(String value) {
+            addCriterion("smallLoanAmount <=", value, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountLike(String value) {
-            addCriterion("smallLoanAmount like", value, "smallloanamount");
+        public Criteria andSmallLoanAmountLike(String value) {
+            addCriterion("smallLoanAmount like", value, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountNotLike(String value) {
-            addCriterion("smallLoanAmount not like", value, "smallloanamount");
+        public Criteria andSmallLoanAmountNotLike(String value) {
+            addCriterion("smallLoanAmount not like", value, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountIn(List<String> values) {
-            addCriterion("smallLoanAmount in", values, "smallloanamount");
+        public Criteria andSmallLoanAmountIn(List<String> values) {
+            addCriterion("smallLoanAmount in", values, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountNotIn(List<String> values) {
-            addCriterion("smallLoanAmount not in", values, "smallloanamount");
+        public Criteria andSmallLoanAmountNotIn(List<String> values) {
+            addCriterion("smallLoanAmount not in", values, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountBetween(String value1, String value2) {
-            addCriterion("smallLoanAmount between", value1, value2, "smallloanamount");
+        public Criteria andSmallLoanAmountBetween(String value1, String value2) {
+            addCriterion("smallLoanAmount between", value1, value2, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanamountNotBetween(String value1, String value2) {
-            addCriterion("smallLoanAmount not between", value1, value2, "smallloanamount");
+        public Criteria andSmallLoanAmountNotBetween(String value1, String value2) {
+            addCriterion("smallLoanAmount not between", value1, value2, "smallLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceIsNull() {
+        public Criteria andSmallLoanBalanceIsNull() {
             addCriterion("smallLoanBalance is null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceIsNotNull() {
+        public Criteria andSmallLoanBalanceIsNotNull() {
             addCriterion("smallLoanBalance is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceEqualTo(String value) {
-            addCriterion("smallLoanBalance =", value, "smallloanbalance");
+        public Criteria andSmallLoanBalanceEqualTo(String value) {
+            addCriterion("smallLoanBalance =", value, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceNotEqualTo(String value) {
-            addCriterion("smallLoanBalance <>", value, "smallloanbalance");
+        public Criteria andSmallLoanBalanceNotEqualTo(String value) {
+            addCriterion("smallLoanBalance <>", value, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceGreaterThan(String value) {
-            addCriterion("smallLoanBalance >", value, "smallloanbalance");
+        public Criteria andSmallLoanBalanceGreaterThan(String value) {
+            addCriterion("smallLoanBalance >", value, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceGreaterThanOrEqualTo(String value) {
-            addCriterion("smallLoanBalance >=", value, "smallloanbalance");
+        public Criteria andSmallLoanBalanceGreaterThanOrEqualTo(String value) {
+            addCriterion("smallLoanBalance >=", value, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceLessThan(String value) {
-            addCriterion("smallLoanBalance <", value, "smallloanbalance");
+        public Criteria andSmallLoanBalanceLessThan(String value) {
+            addCriterion("smallLoanBalance <", value, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceLessThanOrEqualTo(String value) {
-            addCriterion("smallLoanBalance <=", value, "smallloanbalance");
+        public Criteria andSmallLoanBalanceLessThanOrEqualTo(String value) {
+            addCriterion("smallLoanBalance <=", value, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceLike(String value) {
-            addCriterion("smallLoanBalance like", value, "smallloanbalance");
+        public Criteria andSmallLoanBalanceLike(String value) {
+            addCriterion("smallLoanBalance like", value, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceNotLike(String value) {
-            addCriterion("smallLoanBalance not like", value, "smallloanbalance");
+        public Criteria andSmallLoanBalanceNotLike(String value) {
+            addCriterion("smallLoanBalance not like", value, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceIn(List<String> values) {
-            addCriterion("smallLoanBalance in", values, "smallloanbalance");
+        public Criteria andSmallLoanBalanceIn(List<String> values) {
+            addCriterion("smallLoanBalance in", values, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceNotIn(List<String> values) {
-            addCriterion("smallLoanBalance not in", values, "smallloanbalance");
+        public Criteria andSmallLoanBalanceNotIn(List<String> values) {
+            addCriterion("smallLoanBalance not in", values, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceBetween(String value1, String value2) {
-            addCriterion("smallLoanBalance between", value1, value2, "smallloanbalance");
+        public Criteria andSmallLoanBalanceBetween(String value1, String value2) {
+            addCriterion("smallLoanBalance between", value1, value2, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanbalanceNotBetween(String value1, String value2) {
-            addCriterion("smallLoanBalance not between", value1, value2, "smallloanbalance");
+        public Criteria andSmallLoanBalanceNotBetween(String value1, String value2) {
+            addCriterion("smallLoanBalance not between", value1, value2, "smallLoanBalance");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntIsNull() {
+        public Criteria andSmallLoanCntIsNull() {
             addCriterion("smallLoanCnt is null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntIsNotNull() {
+        public Criteria andSmallLoanCntIsNotNull() {
             addCriterion("smallLoanCnt is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntEqualTo(Integer value) {
-            addCriterion("smallLoanCnt =", value, "smallloancnt");
+        public Criteria andSmallLoanCntEqualTo(Integer value) {
+            addCriterion("smallLoanCnt =", value, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntNotEqualTo(Integer value) {
-            addCriterion("smallLoanCnt <>", value, "smallloancnt");
+        public Criteria andSmallLoanCntNotEqualTo(Integer value) {
+            addCriterion("smallLoanCnt <>", value, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntGreaterThan(Integer value) {
-            addCriterion("smallLoanCnt >", value, "smallloancnt");
+        public Criteria andSmallLoanCntGreaterThan(Integer value) {
+            addCriterion("smallLoanCnt >", value, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntGreaterThanOrEqualTo(Integer value) {
-            addCriterion("smallLoanCnt >=", value, "smallloancnt");
+        public Criteria andSmallLoanCntGreaterThanOrEqualTo(Integer value) {
+            addCriterion("smallLoanCnt >=", value, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntLessThan(Integer value) {
-            addCriterion("smallLoanCnt <", value, "smallloancnt");
+        public Criteria andSmallLoanCntLessThan(Integer value) {
+            addCriterion("smallLoanCnt <", value, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntLessThanOrEqualTo(Integer value) {
-            addCriterion("smallLoanCnt <=", value, "smallloancnt");
+        public Criteria andSmallLoanCntLessThanOrEqualTo(Integer value) {
+            addCriterion("smallLoanCnt <=", value, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntIn(List<Integer> values) {
-            addCriterion("smallLoanCnt in", values, "smallloancnt");
+        public Criteria andSmallLoanCntIn(List<Integer> values) {
+            addCriterion("smallLoanCnt in", values, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntNotIn(List<Integer> values) {
-            addCriterion("smallLoanCnt not in", values, "smallloancnt");
+        public Criteria andSmallLoanCntNotIn(List<Integer> values) {
+            addCriterion("smallLoanCnt not in", values, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntBetween(Integer value1, Integer value2) {
-            addCriterion("smallLoanCnt between", value1, value2, "smallloancnt");
+        public Criteria andSmallLoanCntBetween(Integer value1, Integer value2) {
+            addCriterion("smallLoanCnt between", value1, value2, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloancntNotBetween(Integer value1, Integer value2) {
-            addCriterion("smallLoanCnt not between", value1, value2, "smallloancnt");
+        public Criteria andSmallLoanCntNotBetween(Integer value1, Integer value2) {
+            addCriterion("smallLoanCnt not between", value1, value2, "smallLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgIsNull() {
+        public Criteria andSmallLoanOrgIsNull() {
             addCriterion("smallLoanOrg is null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgIsNotNull() {
+        public Criteria andSmallLoanOrgIsNotNull() {
             addCriterion("smallLoanOrg is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgEqualTo(String value) {
-            addCriterion("smallLoanOrg =", value, "smallloanorg");
+        public Criteria andSmallLoanOrgEqualTo(String value) {
+            addCriterion("smallLoanOrg =", value, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgNotEqualTo(String value) {
-            addCriterion("smallLoanOrg <>", value, "smallloanorg");
+        public Criteria andSmallLoanOrgNotEqualTo(String value) {
+            addCriterion("smallLoanOrg <>", value, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgGreaterThan(String value) {
-            addCriterion("smallLoanOrg >", value, "smallloanorg");
+        public Criteria andSmallLoanOrgGreaterThan(String value) {
+            addCriterion("smallLoanOrg >", value, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgGreaterThanOrEqualTo(String value) {
-            addCriterion("smallLoanOrg >=", value, "smallloanorg");
+        public Criteria andSmallLoanOrgGreaterThanOrEqualTo(String value) {
+            addCriterion("smallLoanOrg >=", value, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgLessThan(String value) {
-            addCriterion("smallLoanOrg <", value, "smallloanorg");
+        public Criteria andSmallLoanOrgLessThan(String value) {
+            addCriterion("smallLoanOrg <", value, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgLessThanOrEqualTo(String value) {
-            addCriterion("smallLoanOrg <=", value, "smallloanorg");
+        public Criteria andSmallLoanOrgLessThanOrEqualTo(String value) {
+            addCriterion("smallLoanOrg <=", value, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgLike(String value) {
-            addCriterion("smallLoanOrg like", value, "smallloanorg");
+        public Criteria andSmallLoanOrgLike(String value) {
+            addCriterion("smallLoanOrg like", value, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgNotLike(String value) {
-            addCriterion("smallLoanOrg not like", value, "smallloanorg");
+        public Criteria andSmallLoanOrgNotLike(String value) {
+            addCriterion("smallLoanOrg not like", value, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgIn(List<String> values) {
-            addCriterion("smallLoanOrg in", values, "smallloanorg");
+        public Criteria andSmallLoanOrgIn(List<String> values) {
+            addCriterion("smallLoanOrg in", values, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgNotIn(List<String> values) {
-            addCriterion("smallLoanOrg not in", values, "smallloanorg");
+        public Criteria andSmallLoanOrgNotIn(List<String> values) {
+            addCriterion("smallLoanOrg not in", values, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgBetween(String value1, String value2) {
-            addCriterion("smallLoanOrg between", value1, value2, "smallloanorg");
+        public Criteria andSmallLoanOrgBetween(String value1, String value2) {
+            addCriterion("smallLoanOrg between", value1, value2, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andSmallloanorgNotBetween(String value1, String value2) {
-            addCriterion("smallLoanOrg not between", value1, value2, "smallloanorg");
+        public Criteria andSmallLoanOrgNotBetween(String value1, String value2) {
+            addCriterion("smallLoanOrg not between", value1, value2, "smallLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardIsNull() {
+        public Criteria andHasCreditCardIsNull() {
             addCriterion("hasCreditCard is null");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardIsNotNull() {
+        public Criteria andHasCreditCardIsNotNull() {
             addCriterion("hasCreditCard is not null");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardEqualTo(Boolean value) {
-            addCriterion("hasCreditCard =", value, "hascreditcard");
+        public Criteria andHasCreditCardEqualTo(Boolean value) {
+            addCriterion("hasCreditCard =", value, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardNotEqualTo(Boolean value) {
-            addCriterion("hasCreditCard <>", value, "hascreditcard");
+        public Criteria andHasCreditCardNotEqualTo(Boolean value) {
+            addCriterion("hasCreditCard <>", value, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardGreaterThan(Boolean value) {
-            addCriterion("hasCreditCard >", value, "hascreditcard");
+        public Criteria andHasCreditCardGreaterThan(Boolean value) {
+            addCriterion("hasCreditCard >", value, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardGreaterThanOrEqualTo(Boolean value) {
-            addCriterion("hasCreditCard >=", value, "hascreditcard");
+        public Criteria andHasCreditCardGreaterThanOrEqualTo(Boolean value) {
+            addCriterion("hasCreditCard >=", value, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardLessThan(Boolean value) {
-            addCriterion("hasCreditCard <", value, "hascreditcard");
+        public Criteria andHasCreditCardLessThan(Boolean value) {
+            addCriterion("hasCreditCard <", value, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardLessThanOrEqualTo(Boolean value) {
-            addCriterion("hasCreditCard <=", value, "hascreditcard");
+        public Criteria andHasCreditCardLessThanOrEqualTo(Boolean value) {
+            addCriterion("hasCreditCard <=", value, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardIn(List<Boolean> values) {
-            addCriterion("hasCreditCard in", values, "hascreditcard");
+        public Criteria andHasCreditCardIn(List<Boolean> values) {
+            addCriterion("hasCreditCard in", values, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardNotIn(List<Boolean> values) {
-            addCriterion("hasCreditCard not in", values, "hascreditcard");
+        public Criteria andHasCreditCardNotIn(List<Boolean> values) {
+            addCriterion("hasCreditCard not in", values, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasCreditCard between", value1, value2, "hascreditcard");
+        public Criteria andHasCreditCardBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasCreditCard between", value1, value2, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andHascreditcardNotBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasCreditCard not between", value1, value2, "hascreditcard");
+        public Criteria andHasCreditCardNotBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasCreditCard not between", value1, value2, "hasCreditCard");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntIsNull() {
+        public Criteria andCreditCardCntIsNull() {
             addCriterion("creditCardCnt is null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntIsNotNull() {
+        public Criteria andCreditCardCntIsNotNull() {
             addCriterion("creditCardCnt is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntEqualTo(Integer value) {
-            addCriterion("creditCardCnt =", value, "creditcardcnt");
+        public Criteria andCreditCardCntEqualTo(Integer value) {
+            addCriterion("creditCardCnt =", value, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntNotEqualTo(Integer value) {
-            addCriterion("creditCardCnt <>", value, "creditcardcnt");
+        public Criteria andCreditCardCntNotEqualTo(Integer value) {
+            addCriterion("creditCardCnt <>", value, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntGreaterThan(Integer value) {
-            addCriterion("creditCardCnt >", value, "creditcardcnt");
+        public Criteria andCreditCardCntGreaterThan(Integer value) {
+            addCriterion("creditCardCnt >", value, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntGreaterThanOrEqualTo(Integer value) {
-            addCriterion("creditCardCnt >=", value, "creditcardcnt");
+        public Criteria andCreditCardCntGreaterThanOrEqualTo(Integer value) {
+            addCriterion("creditCardCnt >=", value, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntLessThan(Integer value) {
-            addCriterion("creditCardCnt <", value, "creditcardcnt");
+        public Criteria andCreditCardCntLessThan(Integer value) {
+            addCriterion("creditCardCnt <", value, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntLessThanOrEqualTo(Integer value) {
-            addCriterion("creditCardCnt <=", value, "creditcardcnt");
+        public Criteria andCreditCardCntLessThanOrEqualTo(Integer value) {
+            addCriterion("creditCardCnt <=", value, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntIn(List<Integer> values) {
-            addCriterion("creditCardCnt in", values, "creditcardcnt");
+        public Criteria andCreditCardCntIn(List<Integer> values) {
+            addCriterion("creditCardCnt in", values, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntNotIn(List<Integer> values) {
-            addCriterion("creditCardCnt not in", values, "creditcardcnt");
+        public Criteria andCreditCardCntNotIn(List<Integer> values) {
+            addCriterion("creditCardCnt not in", values, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntBetween(Integer value1, Integer value2) {
-            addCriterion("creditCardCnt between", value1, value2, "creditcardcnt");
+        public Criteria andCreditCardCntBetween(Integer value1, Integer value2) {
+            addCriterion("creditCardCnt between", value1, value2, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardcntNotBetween(Integer value1, Integer value2) {
-            addCriterion("creditCardCnt not between", value1, value2, "creditcardcnt");
+        public Criteria andCreditCardCntNotBetween(Integer value1, Integer value2) {
+            addCriterion("creditCardCnt not between", value1, value2, "creditCardCnt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaIsNull() {
+        public Criteria andCreditCardQuotaIsNull() {
             addCriterion("creditCardQuota is null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaIsNotNull() {
+        public Criteria andCreditCardQuotaIsNotNull() {
             addCriterion("creditCardQuota is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaEqualTo(String value) {
-            addCriterion("creditCardQuota =", value, "creditcardquota");
+        public Criteria andCreditCardQuotaEqualTo(String value) {
+            addCriterion("creditCardQuota =", value, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaNotEqualTo(String value) {
-            addCriterion("creditCardQuota <>", value, "creditcardquota");
+        public Criteria andCreditCardQuotaNotEqualTo(String value) {
+            addCriterion("creditCardQuota <>", value, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaGreaterThan(String value) {
-            addCriterion("creditCardQuota >", value, "creditcardquota");
+        public Criteria andCreditCardQuotaGreaterThan(String value) {
+            addCriterion("creditCardQuota >", value, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaGreaterThanOrEqualTo(String value) {
-            addCriterion("creditCardQuota >=", value, "creditcardquota");
+        public Criteria andCreditCardQuotaGreaterThanOrEqualTo(String value) {
+            addCriterion("creditCardQuota >=", value, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaLessThan(String value) {
-            addCriterion("creditCardQuota <", value, "creditcardquota");
+        public Criteria andCreditCardQuotaLessThan(String value) {
+            addCriterion("creditCardQuota <", value, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaLessThanOrEqualTo(String value) {
-            addCriterion("creditCardQuota <=", value, "creditcardquota");
+        public Criteria andCreditCardQuotaLessThanOrEqualTo(String value) {
+            addCriterion("creditCardQuota <=", value, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaLike(String value) {
-            addCriterion("creditCardQuota like", value, "creditcardquota");
+        public Criteria andCreditCardQuotaLike(String value) {
+            addCriterion("creditCardQuota like", value, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaNotLike(String value) {
-            addCriterion("creditCardQuota not like", value, "creditcardquota");
+        public Criteria andCreditCardQuotaNotLike(String value) {
+            addCriterion("creditCardQuota not like", value, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaIn(List<String> values) {
-            addCriterion("creditCardQuota in", values, "creditcardquota");
+        public Criteria andCreditCardQuotaIn(List<String> values) {
+            addCriterion("creditCardQuota in", values, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaNotIn(List<String> values) {
-            addCriterion("creditCardQuota not in", values, "creditcardquota");
+        public Criteria andCreditCardQuotaNotIn(List<String> values) {
+            addCriterion("creditCardQuota not in", values, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaBetween(String value1, String value2) {
-            addCriterion("creditCardQuota between", value1, value2, "creditcardquota");
+        public Criteria andCreditCardQuotaBetween(String value1, String value2) {
+            addCriterion("creditCardQuota between", value1, value2, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcardquotaNotBetween(String value1, String value2) {
-            addCriterion("creditCardQuota not between", value1, value2, "creditcardquota");
+        public Criteria andCreditCardQuotaNotBetween(String value1, String value2) {
+            addCriterion("creditCardQuota not between", value1, value2, "creditCardQuota");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtIsNull() {
+        public Criteria andCreditCardDebtIsNull() {
             addCriterion("creditCardDebt is null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtIsNotNull() {
+        public Criteria andCreditCardDebtIsNotNull() {
             addCriterion("creditCardDebt is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtEqualTo(String value) {
-            addCriterion("creditCardDebt =", value, "creditcarddebt");
+        public Criteria andCreditCardDebtEqualTo(String value) {
+            addCriterion("creditCardDebt =", value, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtNotEqualTo(String value) {
-            addCriterion("creditCardDebt <>", value, "creditcarddebt");
+        public Criteria andCreditCardDebtNotEqualTo(String value) {
+            addCriterion("creditCardDebt <>", value, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtGreaterThan(String value) {
-            addCriterion("creditCardDebt >", value, "creditcarddebt");
+        public Criteria andCreditCardDebtGreaterThan(String value) {
+            addCriterion("creditCardDebt >", value, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtGreaterThanOrEqualTo(String value) {
-            addCriterion("creditCardDebt >=", value, "creditcarddebt");
+        public Criteria andCreditCardDebtGreaterThanOrEqualTo(String value) {
+            addCriterion("creditCardDebt >=", value, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtLessThan(String value) {
-            addCriterion("creditCardDebt <", value, "creditcarddebt");
+        public Criteria andCreditCardDebtLessThan(String value) {
+            addCriterion("creditCardDebt <", value, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtLessThanOrEqualTo(String value) {
-            addCriterion("creditCardDebt <=", value, "creditcarddebt");
+        public Criteria andCreditCardDebtLessThanOrEqualTo(String value) {
+            addCriterion("creditCardDebt <=", value, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtLike(String value) {
-            addCriterion("creditCardDebt like", value, "creditcarddebt");
+        public Criteria andCreditCardDebtLike(String value) {
+            addCriterion("creditCardDebt like", value, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtNotLike(String value) {
-            addCriterion("creditCardDebt not like", value, "creditcarddebt");
+        public Criteria andCreditCardDebtNotLike(String value) {
+            addCriterion("creditCardDebt not like", value, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtIn(List<String> values) {
-            addCriterion("creditCardDebt in", values, "creditcarddebt");
+        public Criteria andCreditCardDebtIn(List<String> values) {
+            addCriterion("creditCardDebt in", values, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtNotIn(List<String> values) {
-            addCriterion("creditCardDebt not in", values, "creditcarddebt");
+        public Criteria andCreditCardDebtNotIn(List<String> values) {
+            addCriterion("creditCardDebt not in", values, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtBetween(String value1, String value2) {
-            addCriterion("creditCardDebt between", value1, value2, "creditcarddebt");
+        public Criteria andCreditCardDebtBetween(String value1, String value2) {
+            addCriterion("creditCardDebt between", value1, value2, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andCreditcarddebtNotBetween(String value1, String value2) {
-            addCriterion("creditCardDebt not between", value1, value2, "creditcarddebt");
+        public Criteria andCreditCardDebtNotBetween(String value1, String value2) {
+            addCriterion("creditCardDebt not between", value1, value2, "creditCardDebt");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanIsNull() {
+        public Criteria andHasOtherNotCreditLoanIsNull() {
             addCriterion("hasOtherNotCreditLoan is null");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanIsNotNull() {
+        public Criteria andHasOtherNotCreditLoanIsNotNull() {
             addCriterion("hasOtherNotCreditLoan is not null");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanEqualTo(Boolean value) {
-            addCriterion("hasOtherNotCreditLoan =", value, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanEqualTo(Boolean value) {
+            addCriterion("hasOtherNotCreditLoan =", value, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanNotEqualTo(Boolean value) {
-            addCriterion("hasOtherNotCreditLoan <>", value, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanNotEqualTo(Boolean value) {
+            addCriterion("hasOtherNotCreditLoan <>", value, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanGreaterThan(Boolean value) {
-            addCriterion("hasOtherNotCreditLoan >", value, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanGreaterThan(Boolean value) {
+            addCriterion("hasOtherNotCreditLoan >", value, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanGreaterThanOrEqualTo(Boolean value) {
-            addCriterion("hasOtherNotCreditLoan >=", value, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanGreaterThanOrEqualTo(Boolean value) {
+            addCriterion("hasOtherNotCreditLoan >=", value, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanLessThan(Boolean value) {
-            addCriterion("hasOtherNotCreditLoan <", value, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanLessThan(Boolean value) {
+            addCriterion("hasOtherNotCreditLoan <", value, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanLessThanOrEqualTo(Boolean value) {
-            addCriterion("hasOtherNotCreditLoan <=", value, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanLessThanOrEqualTo(Boolean value) {
+            addCriterion("hasOtherNotCreditLoan <=", value, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanIn(List<Boolean> values) {
-            addCriterion("hasOtherNotCreditLoan in", values, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanIn(List<Boolean> values) {
+            addCriterion("hasOtherNotCreditLoan in", values, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanNotIn(List<Boolean> values) {
-            addCriterion("hasOtherNotCreditLoan not in", values, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanNotIn(List<Boolean> values) {
+            addCriterion("hasOtherNotCreditLoan not in", values, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasOtherNotCreditLoan between", value1, value2, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasOtherNotCreditLoan between", value1, value2, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andHasothernotcreditloanNotBetween(Boolean value1, Boolean value2) {
-            addCriterion("hasOtherNotCreditLoan not between", value1, value2, "hasothernotcreditloan");
+        public Criteria andHasOtherNotCreditLoanNotBetween(Boolean value1, Boolean value2) {
+            addCriterion("hasOtherNotCreditLoan not between", value1, value2, "hasOtherNotCreditLoan");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntIsNull() {
+        public Criteria andOtherNotCreditLoanCntIsNull() {
             addCriterion("otherNotCreditLoanCnt is null");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntIsNotNull() {
+        public Criteria andOtherNotCreditLoanCntIsNotNull() {
             addCriterion("otherNotCreditLoanCnt is not null");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntEqualTo(String value) {
-            addCriterion("otherNotCreditLoanCnt =", value, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntEqualTo(String value) {
+            addCriterion("otherNotCreditLoanCnt =", value, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntNotEqualTo(String value) {
-            addCriterion("otherNotCreditLoanCnt <>", value, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntNotEqualTo(String value) {
+            addCriterion("otherNotCreditLoanCnt <>", value, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntGreaterThan(String value) {
-            addCriterion("otherNotCreditLoanCnt >", value, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntGreaterThan(String value) {
+            addCriterion("otherNotCreditLoanCnt >", value, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntGreaterThanOrEqualTo(String value) {
-            addCriterion("otherNotCreditLoanCnt >=", value, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntGreaterThanOrEqualTo(String value) {
+            addCriterion("otherNotCreditLoanCnt >=", value, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntLessThan(String value) {
-            addCriterion("otherNotCreditLoanCnt <", value, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntLessThan(String value) {
+            addCriterion("otherNotCreditLoanCnt <", value, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntLessThanOrEqualTo(String value) {
-            addCriterion("otherNotCreditLoanCnt <=", value, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntLessThanOrEqualTo(String value) {
+            addCriterion("otherNotCreditLoanCnt <=", value, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntLike(String value) {
-            addCriterion("otherNotCreditLoanCnt like", value, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntLike(String value) {
+            addCriterion("otherNotCreditLoanCnt like", value, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntNotLike(String value) {
-            addCriterion("otherNotCreditLoanCnt not like", value, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntNotLike(String value) {
+            addCriterion("otherNotCreditLoanCnt not like", value, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntIn(List<String> values) {
-            addCriterion("otherNotCreditLoanCnt in", values, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntIn(List<String> values) {
+            addCriterion("otherNotCreditLoanCnt in", values, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntNotIn(List<String> values) {
-            addCriterion("otherNotCreditLoanCnt not in", values, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntNotIn(List<String> values) {
+            addCriterion("otherNotCreditLoanCnt not in", values, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntBetween(String value1, String value2) {
-            addCriterion("otherNotCreditLoanCnt between", value1, value2, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntBetween(String value1, String value2) {
+            addCriterion("otherNotCreditLoanCnt between", value1, value2, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloancntNotBetween(String value1, String value2) {
-            addCriterion("otherNotCreditLoanCnt not between", value1, value2, "othernotcreditloancnt");
+        public Criteria andOtherNotCreditLoanCntNotBetween(String value1, String value2) {
+            addCriterion("otherNotCreditLoanCnt not between", value1, value2, "otherNotCreditLoanCnt");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountIsNull() {
+        public Criteria andOtherNotCreditLoanAmountIsNull() {
             addCriterion("otherNotCreditLoanAmount is null");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountIsNotNull() {
+        public Criteria andOtherNotCreditLoanAmountIsNotNull() {
             addCriterion("otherNotCreditLoanAmount is not null");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountEqualTo(String value) {
-            addCriterion("otherNotCreditLoanAmount =", value, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountEqualTo(String value) {
+            addCriterion("otherNotCreditLoanAmount =", value, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountNotEqualTo(String value) {
-            addCriterion("otherNotCreditLoanAmount <>", value, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountNotEqualTo(String value) {
+            addCriterion("otherNotCreditLoanAmount <>", value, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountGreaterThan(String value) {
-            addCriterion("otherNotCreditLoanAmount >", value, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountGreaterThan(String value) {
+            addCriterion("otherNotCreditLoanAmount >", value, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountGreaterThanOrEqualTo(String value) {
-            addCriterion("otherNotCreditLoanAmount >=", value, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountGreaterThanOrEqualTo(String value) {
+            addCriterion("otherNotCreditLoanAmount >=", value, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountLessThan(String value) {
-            addCriterion("otherNotCreditLoanAmount <", value, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountLessThan(String value) {
+            addCriterion("otherNotCreditLoanAmount <", value, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountLessThanOrEqualTo(String value) {
-            addCriterion("otherNotCreditLoanAmount <=", value, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountLessThanOrEqualTo(String value) {
+            addCriterion("otherNotCreditLoanAmount <=", value, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountLike(String value) {
-            addCriterion("otherNotCreditLoanAmount like", value, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountLike(String value) {
+            addCriterion("otherNotCreditLoanAmount like", value, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountNotLike(String value) {
-            addCriterion("otherNotCreditLoanAmount not like", value, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountNotLike(String value) {
+            addCriterion("otherNotCreditLoanAmount not like", value, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountIn(List<String> values) {
-            addCriterion("otherNotCreditLoanAmount in", values, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountIn(List<String> values) {
+            addCriterion("otherNotCreditLoanAmount in", values, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountNotIn(List<String> values) {
-            addCriterion("otherNotCreditLoanAmount not in", values, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountNotIn(List<String> values) {
+            addCriterion("otherNotCreditLoanAmount not in", values, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountBetween(String value1, String value2) {
-            addCriterion("otherNotCreditLoanAmount between", value1, value2, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountBetween(String value1, String value2) {
+            addCriterion("otherNotCreditLoanAmount between", value1, value2, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanamountNotBetween(String value1, String value2) {
-            addCriterion("otherNotCreditLoanAmount not between", value1, value2, "othernotcreditloanamount");
+        public Criteria andOtherNotCreditLoanAmountNotBetween(String value1, String value2) {
+            addCriterion("otherNotCreditLoanAmount not between", value1, value2, "otherNotCreditLoanAmount");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgIsNull() {
+        public Criteria andOtherNotCreditLoanOrgIsNull() {
             addCriterion("otherNotCreditLoanOrg is null");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgIsNotNull() {
+        public Criteria andOtherNotCreditLoanOrgIsNotNull() {
             addCriterion("otherNotCreditLoanOrg is not null");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgEqualTo(String value) {
-            addCriterion("otherNotCreditLoanOrg =", value, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgEqualTo(String value) {
+            addCriterion("otherNotCreditLoanOrg =", value, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgNotEqualTo(String value) {
-            addCriterion("otherNotCreditLoanOrg <>", value, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgNotEqualTo(String value) {
+            addCriterion("otherNotCreditLoanOrg <>", value, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgGreaterThan(String value) {
-            addCriterion("otherNotCreditLoanOrg >", value, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgGreaterThan(String value) {
+            addCriterion("otherNotCreditLoanOrg >", value, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgGreaterThanOrEqualTo(String value) {
-            addCriterion("otherNotCreditLoanOrg >=", value, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgGreaterThanOrEqualTo(String value) {
+            addCriterion("otherNotCreditLoanOrg >=", value, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgLessThan(String value) {
-            addCriterion("otherNotCreditLoanOrg <", value, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgLessThan(String value) {
+            addCriterion("otherNotCreditLoanOrg <", value, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgLessThanOrEqualTo(String value) {
-            addCriterion("otherNotCreditLoanOrg <=", value, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgLessThanOrEqualTo(String value) {
+            addCriterion("otherNotCreditLoanOrg <=", value, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgLike(String value) {
-            addCriterion("otherNotCreditLoanOrg like", value, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgLike(String value) {
+            addCriterion("otherNotCreditLoanOrg like", value, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgNotLike(String value) {
-            addCriterion("otherNotCreditLoanOrg not like", value, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgNotLike(String value) {
+            addCriterion("otherNotCreditLoanOrg not like", value, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgIn(List<String> values) {
-            addCriterion("otherNotCreditLoanOrg in", values, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgIn(List<String> values) {
+            addCriterion("otherNotCreditLoanOrg in", values, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgNotIn(List<String> values) {
-            addCriterion("otherNotCreditLoanOrg not in", values, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgNotIn(List<String> values) {
+            addCriterion("otherNotCreditLoanOrg not in", values, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgBetween(String value1, String value2) {
-            addCriterion("otherNotCreditLoanOrg between", value1, value2, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgBetween(String value1, String value2) {
+            addCriterion("otherNotCreditLoanOrg between", value1, value2, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
 
-        public Criteria andOthernotcreditloanorgNotBetween(String value1, String value2) {
-            addCriterion("otherNotCreditLoanOrg not between", value1, value2, "othernotcreditloanorg");
+        public Criteria andOtherNotCreditLoanOrgNotBetween(String value1, String value2) {
+            addCriterion("otherNotCreditLoanOrg not between", value1, value2, "otherNotCreditLoanOrg");
             return (Criteria) this;
         }
     }

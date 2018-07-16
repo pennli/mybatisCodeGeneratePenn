@@ -3,5 +3,6 @@
 - idea中--maven菜单--选中mybatis-generator:generate--点绿色运行按钮  
 - 复制src下po,mapper
 
+## [reference](https://blog.csdn.net/lj402159806/article/details/54018976)
 ## note
 生成maven工程时，原型选webapp
